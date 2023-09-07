@@ -9,9 +9,11 @@ export default function Lp() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="false" className="fitst-view">
+      <Container maxWidth="false">
+        {/* <Container maxWidth="false" className="fitst-view"> */}
         <Birds />
-        <Box sx={{ height: "100vh" }}>
+        <Box maxWidth="sm" sx={{ height: "100vh" }} className="fitst-view">
+          {/* <Box sx={{ height: "100vh" }}> */}
           <Typography variant="h2" gutterBottom>
             A programmer and designer as nutritious as broccoli!
           </Typography>
