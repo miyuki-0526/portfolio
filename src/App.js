@@ -1,4 +1,5 @@
 import Header from "./components/common/header";
+import Footer from "./components/common/footer";
 import Lp from "./pages/lp";
 import "./styles/main.css";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Lp />
+      <Footer />
     </>
     // <Router>
     //   <Preloader load={load} />

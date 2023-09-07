@@ -3,12 +3,14 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
+import Birds from "../components/animation/birds";
 
 export default function Lp() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="sm">
+      <Container maxWidth="false" className="fitst-view">
+        <Birds />
         <Box sx={{ height: "100vh" }}>
           <Typography variant="h2" gutterBottom>
             A programmer and designer as nutritious as broccoli!
