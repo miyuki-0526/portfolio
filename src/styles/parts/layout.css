@@ -1,0 +1,10 @@
+/* birds */
+.birds-wrap {
+  position: fixed;
+  top: 0;
+}
+
+.no-padding-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

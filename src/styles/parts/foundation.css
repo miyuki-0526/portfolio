@@ -1,10 +1,50 @@
 @import "~normalize.css";
 
+/* ===========
+var
+=========== */
+
+:root {
+  --primary-color: linear-gradient(135deg, rgb(112 137 218), rgb(106 231 244));
+  --secondary-color: linear-gradient(
+    135deg,
+    rgba(165, 168, 134, 0.66) -0.76%,
+    rgba(89, 87, 90, 0.9) 81.21%
+  );
+  --accent-text-color: #da9e35;
+  --accent-color: #f6d02a;
+  --background-white: #fff;
+}
+
+/* ===========
+fonts
+=========== */
+
 /* font-family: 'Montserrat', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* font-family: 'Roboto', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-h2.css-i1hrn3-MuiTypography-root {
-  font-family: "Montserrat";
+/* ===========
+texts
+=========== */
+
+h1.MuiTypography-h1,
+h2.MuiTypography-h2 {
+  font-family: "Montserrat", sans-serif;
+}
+p.MuiTypography-body1 {
+  font-family: "Roboto", sans-serif;
+}
+h1.MuiTypography-h1 {
+  font-size: 8rem;
+}
+h2.MuiTypography-h2 {
+  font-weight: bold;
+}
+.fitst-view h2.MuiTypography-h2 {
+  font-weight: 500;
+}
+p.MuiTypography-body1 {
+  font-size: 18px;
 }

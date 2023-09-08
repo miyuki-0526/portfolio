@@ -7,27 +7,44 @@ import Birds from "../components/animation/birds";
 
 export default function Lp() {
   return (
-    <React.Fragment>
+    <>
       <CssBaseline />
-      <Container maxWidth="false">
-        {/* <Container maxWidth="false" className="fitst-view"> */}
+      {/* <Container
+        maxWidth="false"
+        sx={{ height: "100vh" }}
+        className="birds-wrap no-padding-container"
+      >
         <Birds />
-        <Box maxWidth="sm" sx={{ height: "100vh" }} className="fitst-view">
-          {/* <Box sx={{ height: "100vh" }}> */}
+      </Container> */}
+      <Container maxWidth="false">
+        <Box
+          maxWidth="sm"
+          sx={{ height: "calc( 100vh - 151px )" }}
+          className="fitst-view"
+        >
           <Typography variant="h2" gutterBottom>
             A programmer and designer as nutritious as broccoli!
           </Typography>
         </Box>
       </Container>
-      <Container maxWidth="sm">
-        <Box sx={{ height: "100vh" }}>
+      <Container maxWidth="false" className="no-padding-container">
+        <Box
+          sx={{ height: "100vh", minWidth: "100%" }}
+          className="about-me-box"
+        >
           <Typography variant="h2" gutterBottom>
             About me
           </Typography>
-          <Typography variant="p" gutterBottom>
-            aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa
-            aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa
-          </Typography>
+          <Box className="about-me-contents">
+            <Typography variant="body1" component="p" gutterBottom>
+              I am a curious programmer and designer!
+            </Typography>
+            <Typography variant="body1" component="p" gutterBottom>
+              I love to learn new things and have used many different languages
+              and tools. <br />I am good at solving complex problems in a simple
+              way!
+            </Typography>
+          </Box>
         </Box>
       </Container>
       <Container maxWidth="sm">
@@ -91,6 +108,6 @@ export default function Lp() {
           </Typography>
         </Box>
       </Container>
-    </React.Fragment>
+    </>
   );
 }

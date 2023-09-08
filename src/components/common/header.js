@@ -8,8 +8,7 @@ export default function Header() {
       <section>
         <div className="logo_wrap">
           <Typography variant="h1" gutterBottom>
-            aaaaa
-            <img src="aaa" />
+            Miyuki.T
           </Typography>
         </div>
         <div className="menu">
