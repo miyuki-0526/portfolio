@@ -70,3 +70,8 @@ header h1.MuiTypography-h1 {
   width: 54vw;
   height: 250px;
 }
+
+.my-photo {
+  width: 200px;
+  position: absolute;
+}

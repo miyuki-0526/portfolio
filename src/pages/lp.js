@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Birds from "../components/animation/birds";
+import myPhoto from "../assets/img/my_photo.png";
 
 export default function Lp() {
   return (
@@ -44,6 +45,7 @@ export default function Lp() {
               and tools. <br />I am good at solving complex problems in a simple
               way!
             </Typography>
+            <img className="my-photo" src={myPhoto} />
           </Box>
         </Box>
       </Container>
@@ -52,9 +54,10 @@ export default function Lp() {
           <Typography variant="h2" gutterBottom>
             Works
           </Typography>
-          <Typography variant="p" gutterBottom>
-            aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa
-            aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa
+          <Typography variant="body1" component="p" gutterBottom>
+            I love to learn new things and have used many different languages
+            and tools. <br />I am good at solving complex problems in a simple
+            way!
           </Typography>
         </Box>
       </Container>
@@ -80,9 +83,10 @@ export default function Lp() {
           <Typography variant="h2" gutterBottom>
             my plofile
           </Typography>
-          <Typography variant="p" gutterBottom>
-            aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa
-            aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa
+          <Typography variant="body1" component="p" gutterBottom>
+            I love to learn new things and have used many different languages
+            and tools. <br />I am good at solving complex problems in a simple
+            way!
           </Typography>
         </Box>
       </Container>
@@ -102,9 +106,10 @@ export default function Lp() {
           <Typography variant="h2" gutterBottom>
             contact
           </Typography>
-          <Typography variant="p" gutterBottom>
-            aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa
-            aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa
+          <Typography variant="body1" component="p" gutterBottom>
+            I love to learn new things and have used many different languages
+            and tools. <br />I am good at solving complex problems in a simple
+            way!
           </Typography>
         </Box>
       </Container>
