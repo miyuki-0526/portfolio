@@ -56,7 +56,7 @@ export default function Lp() {
             Works
           </Typography>
           <Box className="works-img-wrap">
-            <Box width="md" className="works-imges">
+            <Box className="works-imges">
               <div>
                 <img src={airRegi} />
               </div>
