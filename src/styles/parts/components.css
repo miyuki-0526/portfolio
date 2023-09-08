@@ -76,3 +76,35 @@ header h1.MuiTypography-h1 {
   width: 200px;
   position: absolute;
 }
+
+/* works */
+
+.works-contents {
+  text-align: center;
+}
+
+.works-img-wrap {
+  min-width: 100%;
+  background-image: var(--secondary-color);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.works-imges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.works-imges div {
+  padding: 10px;
+}
+
+.works-imges img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}

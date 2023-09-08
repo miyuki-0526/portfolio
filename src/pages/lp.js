@@ -5,6 +5,7 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Birds from "../components/animation/birds";
 import myPhoto from "../assets/img/my_photo.png";
+import airRegi from "../assets/img/works/AirRegi.png";
 
 export default function Lp() {
   return (
@@ -24,7 +25,7 @@ export default function Lp() {
           className="fitst-view"
         >
           <Typography variant="h2" gutterBottom>
-            A programmer and designer as nutritious as broccoli!
+            I'm working hard on my portfolio right now!
           </Typography>
         </Box>
       </Container>
@@ -49,16 +50,33 @@ export default function Lp() {
           </Box>
         </Box>
       </Container>
-      <Container maxWidth="sm">
-        <Box sx={{ height: "100vh" }}>
+      <Container maxWidth="false" className="no-padding-container">
+        <Box sx={{ height: "100vh" }} className="works-contents">
           <Typography variant="h2" gutterBottom>
             Works
           </Typography>
-          <Typography variant="body1" component="p" gutterBottom>
-            I love to learn new things and have used many different languages
-            and tools. <br />I am good at solving complex problems in a simple
-            way!
-          </Typography>
+          <Box className="works-img-wrap">
+            <Box width="md" className="works-imges">
+              <div>
+                <img src={airRegi} />
+              </div>
+              <div>
+                <img src="aaa" />
+              </div>
+              <div>
+                <img src="aaa" />
+              </div>
+              <div>
+                <img src="aaa" />
+              </div>
+              <div>
+                <img src="aaa" />
+              </div>
+              <div>
+                <img src="aaa" />
+              </div>
+            </Box>
+          </Box>
         </Box>
       </Container>
       <Container maxWidth="sm">
