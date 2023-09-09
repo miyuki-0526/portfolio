@@ -7,6 +7,20 @@ import Birds from "../components/animation/birds";
 import myPhoto from "../assets/img/my_photo.png";
 import airRegi from "../assets/img/works/AirRegi.png";
 
+import bootstrap from "../assets/img/icons/bootstrap-logo.svg";
+import css from "../assets/img/icons/css-logo.svg";
+import django from "../assets/img/icons/django-logo.svg";
+import figma from "../assets/img/icons/figma-logo.svg";
+import html from "../assets/img/icons/html-logo.svg";
+import illustrator from "../assets/img/icons/illustrator-logo.svg";
+import jquery from "../assets/img/icons/jquery-logo.svg";
+import js from "../assets/img/icons/js-logo.svg";
+import photoshop from "../assets/img/icons/photoshop-logo.svg";
+import react from "../assets/img/icons/react-logo.svg";
+import ts from "../assets/img/icons/ts-logo.svg";
+import wordpress from "../assets/img/icons/wordpress-logo.svg";
+import xd from "../assets/img/icons/xd-logo.svg";
+
 export default function Lp() {
   return (
     <>
@@ -79,20 +93,42 @@ export default function Lp() {
           </Box>
         </Box>
       </Container>
-      <Container maxWidth="sm">
-        <Box sx={{ height: "100vh" }}>
-          <Typography variant="h2" gutterBottom>
+      <Container maxWidth="false">
+        <Box
+          sx={{ height: "calc( 100vh - 48px ) " }}
+          className="skils-background"
+        >
+          <Typography variant="h2" className="white-text" gutterBottom>
             Skils
           </Typography>
-          <Box component="section" sx={{ height: "100vh" }}>
-            <Typography variant="h3" gutterBottom>
-              programming
-            </Typography>
-          </Box>
-          <Box component="section" sx={{ height: "100vh" }}>
-            <Typography variant="h3" gutterBottom>
-              design
-            </Typography>
+          <Box className="skils-contents">
+            <Box className="skills">
+              <img
+                src={wordpress}
+                className="skill-icon"
+                alt="wordpress-icon"
+              />
+              <img src={bootstrap} className="skill-icon" />
+              <img src={css} className="skill-icon" alt="css-icon" />
+              <img src={html} className="skill-icon" alt="html-icon" />
+              <img src={js} className="skill-icon" alt="js-icon" />
+              <img src={jquery} className="skill-icon" alt="jquery-icon" />
+              <img src={ts} className="skill-icon" alt="ts-icon" />
+              <img src={react} className="skill-icon" alt="react-icon" />
+              <img src={django} className="skill-icon" alt="django-icon" />
+              <img src={figma} className="skill-icon" alt="figma-icon" />
+              <img
+                src={photoshop}
+                className="skill-icon"
+                alt="photoshop-icon"
+              />
+              <img
+                src={illustrator}
+                className="skill-icon"
+                alt="illustrator-icon"
+              />
+              <img src={xd} className="skill-icon" alt="xd-icon" />
+            </Box>
           </Box>
         </Box>
       </Container>

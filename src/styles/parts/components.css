@@ -108,3 +108,43 @@ header h1.MuiTypography-h1 {
   object-fit: cover;
   object-position: top;
 }
+
+/* skils */
+
+.skils-contents {
+  text-align: center;
+  background-color: var(--background-white);
+  min-height: 50vh;
+  margin-bottom: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 calc(50% - 50vw) 23vh;
+}
+
+.skils-background {
+  background-image: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 24px 0;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem 0;
+
+  max-width: 900px;
+}
+
+.skill-icon {
+  height: 60px;
+  margin: 10px;
+}
+/* .skill-icon-wrap {
+  height: 30px;
+} */

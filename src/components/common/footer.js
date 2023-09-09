@@ -7,9 +7,6 @@ export default function Footer() {
   return (
     <Container maxWidth="sm">
       <Box>
-        <Typography variant="h2" gutterBottom>
-          contact
-        </Typography>
         <Typography variant="p" gutterBottom>
           Copyright © 2023 Miyuki
         </Typography>

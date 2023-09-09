@@ -48,3 +48,6 @@ h2.MuiTypography-h2 {
 p.MuiTypography-body1 {
   font-size: 18px;
 }
+.white-text {
+  color: #fff;
+}
