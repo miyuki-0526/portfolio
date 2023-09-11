@@ -41,8 +41,8 @@ header h1.MuiTypography-h1 {
 .about-me-contents {
   background-color: var(--background-white);
   position: relative;
-  max-width: 520px;
-  padding: 60px;
+  max-width: 569px;
+  padding: 50px;
   padding-bottom: 235px;
   margin-top: 75px;
 }
@@ -81,11 +81,12 @@ header h1.MuiTypography-h1 {
 
 .works-contents {
   text-align: center;
+  background-image: var(--secondary-color);
+  padding: 40px 0;
 }
 
 .works-img-wrap {
   min-width: 100%;
-  background-image: var(--secondary-color);
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -111,25 +112,28 @@ header h1.MuiTypography-h1 {
 
 /* skils */
 
+.skills-conteiner {
+  text-align: center;
+  padding: 40px 0;
+}
+
 .skils-contents {
   text-align: center;
   background-color: var(--background-white);
-  min-height: 50vh;
-  margin-bottom: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 calc(50% - 50vw) 23vh;
+  padding: 25px 0;
 }
 
-.skils-background {
+/* .skils-background {
   background-image: var(--primary-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   margin: 24px 0;
-}
+} */
 
 .skills {
   display: flex;
@@ -137,7 +141,6 @@ header h1.MuiTypography-h1 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem 0;
-
   max-width: 900px;
 }
 
@@ -145,6 +148,13 @@ header h1.MuiTypography-h1 {
   height: 60px;
   margin: 10px;
 }
+
 /* .skill-icon-wrap {
   height: 30px;
 } */
+
+.career-history-conteiner {
+  text-align: center;
+  background-image: var(--primary-color);
+  padding: 40px 0;
+}

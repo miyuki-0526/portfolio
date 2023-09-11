@@ -39,7 +39,7 @@ export default function Lp() {
           className="fitst-view"
         >
           <Typography variant="h2" gutterBottom>
-            I'm working hard on my portfolio right now!
+            I am a curious programmer and designer!
           </Typography>
         </Box>
       </Container>
@@ -53,20 +53,21 @@ export default function Lp() {
           </Typography>
           <Box className="about-me-contents">
             <Typography variant="body1" component="p" gutterBottom>
-              I am a curious programmer and designer!
+              I love to learn new things and have used many different languages
+              and tools. I am good at solving complex problems in a simple way!
             </Typography>
             <Typography variant="body1" component="p" gutterBottom>
-              I love to learn new things and have used many different languages
-              and tools. <br />I am good at solving complex problems in a simple
-              way!
+              I love coffee and sweets more than anything else, and I enjoy
+              cooking. Recently, I'm into visiting vintage clothing stores in
+              Toronto.
             </Typography>
             <img className="my-photo" src={myPhoto} />
           </Box>
         </Box>
       </Container>
       <Container maxWidth="false" className="no-padding-container">
-        <Box sx={{ height: "100vh" }} className="works-contents">
-          <Typography variant="h2" gutterBottom>
+        <Box className="works-contents">
+          <Typography variant="h2" className="white-text" gutterBottom>
             Works
           </Typography>
           <Box className="works-img-wrap">
@@ -93,65 +94,47 @@ export default function Lp() {
           </Box>
         </Box>
       </Container>
-      <Container maxWidth="false">
-        <Box
-          sx={{ height: "calc( 100vh - 48px ) " }}
-          className="skils-background"
-        >
-          <Typography variant="h2" className="white-text" gutterBottom>
-            Skils
-          </Typography>
-          <Box className="skils-contents">
-            <Box className="skills">
-              <img
-                src={wordpress}
-                className="skill-icon"
-                alt="wordpress-icon"
-              />
-              <img src={bootstrap} className="skill-icon" />
-              <img src={css} className="skill-icon" alt="css-icon" />
-              <img src={html} className="skill-icon" alt="html-icon" />
-              <img src={js} className="skill-icon" alt="js-icon" />
-              <img src={jquery} className="skill-icon" alt="jquery-icon" />
-              <img src={ts} className="skill-icon" alt="ts-icon" />
-              <img src={react} className="skill-icon" alt="react-icon" />
-              <img src={django} className="skill-icon" alt="django-icon" />
-              <img src={figma} className="skill-icon" alt="figma-icon" />
-              <img
-                src={photoshop}
-                className="skill-icon"
-                alt="photoshop-icon"
-              />
-              <img
-                src={illustrator}
-                className="skill-icon"
-                alt="illustrator-icon"
-              />
-              <img src={xd} className="skill-icon" alt="xd-icon" />
-            </Box>
+      <Container maxWidth="false" className="skills-conteiner">
+        <Typography variant="h2" gutterBottom>
+          Skils
+        </Typography>
+        <Box className="skils-contents">
+          <Box className="skills">
+            <img src={wordpress} className="skill-icon" alt="wordpress-icon" />
+            <img src={bootstrap} className="skill-icon" />
+            <img src={css} className="skill-icon" alt="css-icon" />
+            <img src={html} className="skill-icon" alt="html-icon" />
+            <img src={js} className="skill-icon" alt="js-icon" />
+            <img src={jquery} className="skill-icon" alt="jquery-icon" />
+            <img src={ts} className="skill-icon" alt="ts-icon" />
+            <img src={react} className="skill-icon" alt="react-icon" />
+            <img src={django} className="skill-icon" alt="django-icon" />
+            <img src={figma} className="skill-icon" alt="figma-icon" />
+            <img src={photoshop} className="skill-icon" alt="photoshop-icon" />
+            <img
+              src={illustrator}
+              className="skill-icon"
+              alt="illustrator-icon"
+            />
+            <img src={xd} className="skill-icon" alt="xd-icon" />
           </Box>
         </Box>
       </Container>
-      <Container maxWidth="sm">
-        <Box sx={{ height: "100vh" }}>
-          <Typography variant="h2" gutterBottom>
-            my plofile
+      <Container maxWidth="false" className="career-history-conteiner">
+        <Box maxWidth="sm">
+          <Typography variant="h2" className="white-text" gutterBottom>
+            Career History
           </Typography>
-          <Typography variant="body1" component="p" gutterBottom>
-            I love to learn new things and have used many different languages
-            and tools. <br />I am good at solving complex problems in a simple
-            way!
-          </Typography>
-        </Box>
-      </Container>
-      <Container maxWidth="sm">
-        <Box sx={{ height: "100vh" }}>
-          <Typography variant="h2" gutterBottom>
-            recently my favorite things
-          </Typography>
-          <Typography variant="p" gutterBottom>
-            aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa
-            aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa
+          <Typography
+            variant="body1"
+            component="p"
+            className="white-text"
+            gutterBottom
+          >
+            After working as a programmer at a Japanese start-up company for 2
+            years, I went independent and then turned freelance, gaining
+            experience at 3 companies. In May of this year, I moved to Toronto
+            and worked as a programmer for a local company for one month.
           </Typography>
         </Box>
       </Container>
