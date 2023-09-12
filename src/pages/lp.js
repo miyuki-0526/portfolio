@@ -120,8 +120,31 @@ export default function Lp() {
           </Box>
         </Box>
       </Container>
-      <Container maxWidth="false" className="career-history-conteiner">
-        <Box maxWidth="sm">
+      <Container maxWidth="false" className="no-padding-container">
+        <Box className="career-history-contents">
+          <Box maxWidth="sm">
+            <Typography variant="h2" className="white-text" gutterBottom>
+              Career History
+            </Typography>
+            <Box className="m-1rem">
+              <Typography
+                variant="body1"
+                component="p"
+                className="white-text"
+                gutterBottom
+              >
+                After working as a programmer at a Japanese start-up company for
+                2 years, I went independent and then turned freelance, gaining
+                experience at 3 companies. In May of this year, I moved to
+                Toronto and worked as a programmer for a local company for one
+                month.
+              </Typography>
+            </Box>
+          </Box>
+        </Box>
+      </Container>
+      {/* <Container maxWidth="false" className="career-history-conteiner">
+        <Box maxWidth="sm" className="career-history-contents">
           <Typography variant="h2" className="white-text" gutterBottom>
             Career History
           </Typography>
@@ -137,7 +160,7 @@ export default function Lp() {
             and worked as a programmer for a local company for one month.
           </Typography>
         </Box>
-      </Container>
+      </Container> */}
       <Container maxWidth="sm">
         <Box sx={{ height: "100vh" }}>
           <Typography variant="h2" gutterBottom>

@@ -149,12 +149,18 @@ header h1.MuiTypography-h1 {
   margin: 10px;
 }
 
-/* .skill-icon-wrap {
-  height: 30px;
-} */
+/* career-history */
 
-.career-history-conteiner {
+.career-history-contents {
   text-align: center;
   background-image: var(--primary-color);
   padding: 40px 0;
+}
+
+.career-history-contents {
+  text-align: center;
+  background-image: var(--primary-color);
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
 }
