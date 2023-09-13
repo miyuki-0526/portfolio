@@ -12,8 +12,14 @@ var
     rgba(89, 87, 90, 0.9) 81.21%
   );
   --accent-text-color: #da9e35;
-  --accent-color: #f6d02a;
+  --accent-color: linear-gradient(
+    135deg,
+    #fff0ae 23.1%,
+    #ffad4e 55.31%,
+    #fccd00 78.81%
+  );
   --background-white: #fff;
+  --conteriner-padding: 60px 0;
 }
 
 /* ===========
@@ -28,6 +34,9 @@ fonts
 /* ===========
 texts
 =========== */
+html {
+  color: #333;
+}
 
 h1.MuiTypography-h1,
 h2.MuiTypography-h2 {

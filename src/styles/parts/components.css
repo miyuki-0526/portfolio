@@ -82,7 +82,7 @@ header h1.MuiTypography-h1 {
 .works-contents {
   text-align: center;
   background-image: var(--secondary-color);
-  padding: 40px 0;
+  padding: var(--conteriner-padding);
 }
 
 .works-img-wrap {
@@ -114,7 +114,7 @@ header h1.MuiTypography-h1 {
 
 .skills-conteiner {
   text-align: center;
-  padding: 40px 0;
+  padding: var(--conteriner-padding);
 }
 
 .skils-contents {
@@ -154,13 +154,70 @@ header h1.MuiTypography-h1 {
 .career-history-contents {
   text-align: center;
   background-image: var(--primary-color);
-  padding: 40px 0;
+  padding: var(--conteriner-padding);
 }
 
 .career-history-contents {
   text-align: center;
   background-image: var(--primary-color);
-  padding: 40px 0;
+  padding: var(--conteriner-padding);
   display: flex;
   justify-content: center;
+}
+
+/* contacts */
+.contact-contents {
+  text-align: center;
+  padding: var(--conteriner-padding);
+  display: flex;
+  justify-content: center;
+}
+
+.contact-contents-inner > *:not(:first-child):not(:last-child) {
+  margin: 30px;
+}
+
+.contact-icons svg {
+  height: 60px;
+  margin: 10px;
+}
+
+.or-style {
+  display: flex;
+  align-items: center;
+}
+
+.or-style:before,
+.or-style:after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #666;
+}
+
+.or-style:before {
+  margin-right: 1rem;
+}
+
+.or-style:after {
+  margin-left: 1rem;
+}
+
+/* button */
+.contact-contents button.cta-button {
+  font-size: 1.3rem;
+  padding: 0.6rem 3.5rem;
+  background-image: var(--accent-color);
+  text-shadow: 0px 0px 7px rgb(130 63 0), 0px 0px 7px rgb(158 76 0);
+}
+
+/* ======
+footer
+====== */
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #494949;
+  color: #fff;
 }

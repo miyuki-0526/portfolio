@@ -4,8 +4,11 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Birds from "../components/animation/birds";
+import Button from "@mui/material/Button";
 import myPhoto from "../assets/img/my_photo.png";
 import airRegi from "../assets/img/works/AirRegi.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import bootstrap from "../assets/img/icons/bootstrap-logo.svg";
 import css from "../assets/img/icons/css-logo.svg";
@@ -143,34 +146,41 @@ export default function Lp() {
           </Box>
         </Box>
       </Container>
-      {/* <Container maxWidth="false" className="career-history-conteiner">
-        <Box maxWidth="sm" className="career-history-contents">
-          <Typography variant="h2" className="white-text" gutterBottom>
-            Career History
-          </Typography>
-          <Typography
-            variant="body1"
-            component="p"
-            className="white-text"
-            gutterBottom
-          >
-            After working as a programmer at a Japanese start-up company for 2
-            years, I went independent and then turned freelance, gaining
-            experience at 3 companies. In May of this year, I moved to Toronto
-            and worked as a programmer for a local company for one month.
-          </Typography>
-        </Box>
-      </Container> */}
-      <Container maxWidth="sm">
-        <Box sx={{ height: "100vh" }}>
-          <Typography variant="h2" gutterBottom>
-            contact
-          </Typography>
-          <Typography variant="body1" component="p" gutterBottom>
-            I love to learn new things and have used many different languages
-            and tools. <br />I am good at solving complex problems in a simple
-            way!
-          </Typography>
+      <Container maxWidth="false" className="no-padding-container">
+        <Box className="contact-contents">
+          <Box className="contact-contents-inner" maxWidth="sm">
+            <Typography variant="h2" gutterBottom>
+              Contact
+            </Typography>
+            <Box>
+              <a href="mailto:miyuki.takahashi.0526&#64;gmail.com">
+                <Button size="large" variant="contained" className="cta-button">
+                  Send Email
+                </Button>
+              </a>
+            </Box>
+            <Box>
+              <Typography
+                variant="body1"
+                component="p"
+                className="or-style"
+                gutterBottom
+              >
+                or
+              </Typography>
+            </Box>
+            <Box className="contact-icons">
+              <a href="https://www.linkedin.com/in/miyuki-takahashi-055b1627b/">
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  style={{ color: "#0072b1" }}
+                />
+              </a>
+              <a href="https://github.com/miyuki-0526">
+                <FontAwesomeIcon icon={faGithub} style={{ color: "#171515" }} />
+              </a>
+            </Box>
+          </Box>
         </Box>
       </Container>
     </>
