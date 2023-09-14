@@ -52,7 +52,10 @@ const Lp = () => {
           </Typography>
         </Box>
       </Container>
-      <Container maxWidth="false" className="no-padding-container">
+      <Container
+        maxWidth="false"
+        className="no-padding-container about-me-conteiner"
+      >
         <ScrollTarget id="About" />
         <Box
           sx={{ height: "100vh", minWidth: "100%" }}
@@ -75,7 +78,10 @@ const Lp = () => {
           </Box>
         </Box>
       </Container>
-      <Container maxWidth="false" className="no-padding-container">
+      <Container
+        maxWidth="false"
+        className="no-padding-container works-conteiner"
+      >
         <ScrollTarget id="Works" />
         <Box className="works-contents">
           <Typography variant="h2" className="white-text" gutterBottom>
@@ -123,7 +129,10 @@ const Lp = () => {
           </Box>
         </Box>
       </Container>
-      <Container maxWidth="false" className="no-padding-container">
+      <Container
+        maxWidth="false"
+        className="no-padding-container career-history-container"
+      >
         <ScrollTarget id="Career" />
         <Box className="career-history-contents">
           <Box maxWidth="sm">
@@ -147,7 +156,10 @@ const Lp = () => {
           </Box>
         </Box>
       </Container>
-      <Container maxWidth="false" className="no-padding-container">
+      <Container
+        maxWidth="false"
+        className="no-padding-container contact-container"
+      >
         <ScrollTarget id="Contact" />
         <Box className="contact-contents">
           <Box className="contact-contents-inner" maxWidth="sm">
