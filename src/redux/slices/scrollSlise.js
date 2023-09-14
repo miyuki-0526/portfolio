@@ -5,7 +5,6 @@ const scrollSlice = createSlice({
   reducers: {
     setTargetElement: (state, action) => {
       state.targetElement = action.payload;
-      console.log(state.targetElement);
     },
   },
 });
