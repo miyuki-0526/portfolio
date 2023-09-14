@@ -9,7 +9,6 @@ const ScrollTarget = ({ id }) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    console.log("useEffec");
     if (elementId == id) {
       myRef.current.scrollIntoView({ behavior: "smooth" });
       dispatch(setTargetElement(null));

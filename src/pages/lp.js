@@ -3,6 +3,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
+import { Link } from "react-router-dom";
 
 import Birds from "../components/animation/birds";
 import ScrollTarget from "../components/common/scrolltarget";
@@ -26,10 +27,12 @@ import react from "../assets/img/icons/react-logo.svg";
 import ts from "../assets/img/icons/ts-logo.svg";
 import wordpress from "../assets/img/icons/wordpress-logo.svg";
 import xd from "../assets/img/icons/xd-logo.svg";
+import Header from "../components/common/header";
 
 const Lp = () => {
   return (
     <>
+      <Header />
       <CssBaseline />
       {/* <Container
         maxWidth="false"
@@ -80,24 +83,15 @@ const Lp = () => {
           </Typography>
           <Box className="works-img-wrap">
             <Box className="works-imges">
-              <div>
+              <Link to="/workTemplate">
                 <img src={airRegi} />
-              </div>
-              <div>
-                <img src="aaa" />
-              </div>
-              <div>
-                <img src="aaa" />
-              </div>
-              <div>
-                <img src="aaa" />
-              </div>
-              <div>
-                <img src="aaa" />
-              </div>
-              <div>
-                <img src="aaa" />
-              </div>
+              </Link>
+              <Link to="/workTemplate">
+                <img src={airRegi} />
+              </Link>
+              <Link to="/workTemplate">
+                <img src={airRegi} />
+              </Link>
             </Box>
           </Box>
         </Box>
