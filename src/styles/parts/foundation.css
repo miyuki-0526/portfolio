@@ -11,8 +11,9 @@ var
     rgba(165, 168, 134, 0.66) -0.76%,
     rgba(89, 87, 90, 0.9) 81.21%
   );
+  --primary-text-color: #84814b;
   --secondary-color-text-color: #da9e35;
-  --secondary-color-color: linear-gradient(
+  --secondary-color: linear-gradient(
     135deg,
     #fff0ae 23.1%,
     #ffad4e 55.31%,

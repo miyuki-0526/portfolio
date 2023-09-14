@@ -7,7 +7,13 @@ const ScrollButton = ({ targetId, text }) => {
   const dispatch = useDispatch();
 
   return (
-    <Button onClick={() => dispatch(setTargetElement(targetId))}>{text}</Button>
+    <Button
+      onClick={() => dispatch(setTargetElement(targetId))}
+      color="secondary"
+      size="large"
+    >
+      {text}
+    </Button>
   );
 };
 

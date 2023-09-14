@@ -4,17 +4,27 @@ import Footer from "./components/common/footer";
 import Lp from "./pages/lp";
 import WorkTemplate from "./pages/workTemplate";
 import "./styles/main.css";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
 
-function App() {
+const theme = createTheme({
+  palette: {
+    secondary: { main: "#da9e35" },
+    primary: { main: "#84814b" },
+  },
+});
+
+const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Lp />} />
-        <Route path="/workTemplate" element={<WorkTemplate />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Lp />} />
+          <Route path="/workTemplate" element={<WorkTemplate />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;

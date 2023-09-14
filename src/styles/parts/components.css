@@ -13,7 +13,6 @@ header {
   mix-blend-mode: difference;
 }
 header h1.MuiTypography-h1 {
-  mix-blend-mode: difference;
   font-weight: bold;
   color: #fff;
 }
@@ -22,12 +21,17 @@ header.header-fixed {
   mix-blend-mode: initial;
   position: fixed;
   top: 0;
+  background-color: #ffffff;
 }
 
 header.header-fixed h1.MuiTypography-h1 {
   font-size: 20px;
   color: var(--text-black);
 }
+
+/* header:not(.header-fixed) .menu button {
+  color: #1976d2;
+} */
 
 /* ========
  lp-contents
@@ -218,7 +222,7 @@ header.header-fixed h1.MuiTypography-h1 {
 .contact-contents button.cta-button {
   font-size: 1.3rem;
   padding: 0.6rem 3.5rem;
-  background-image: var(--secondary-color-color);
+  background-image: var(--secondary-color);
   text-shadow: 0px 0px 7px rgb(130 63 0), 0px 0px 7px rgb(158 76 0);
 }
 
