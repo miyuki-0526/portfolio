@@ -4,6 +4,7 @@ import Nav from "./nav.js";
 import useScroll from "../../hooks/useScroll.js";
 import { useEffect, useState } from "react";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { theme } from "../../App.js";
 
 // change btn color in only header
 const headerTheme = createTheme({
@@ -32,7 +33,7 @@ export default function Header() {
   }, [scrollPosition, headerHeight]);
 
   return (
-    <ThemeProvider theme={isFixed ? "" : headerTheme}>
+    <ThemeProvider theme={isFixed ? theme : headerTheme}>
       <header className={isFixed ? "header-fixed" : ""}>
         <section>
           <div className="logo_wrap">

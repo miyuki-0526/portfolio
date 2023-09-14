@@ -6,7 +6,7 @@ import WorkTemplate from "./pages/workTemplate";
 import "./styles/main.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
-const theme = createTheme({
+export const theme = createTheme({
   palette: {
     secondary: { main: "#da9e35" },
     primary: { main: "#84814b" },

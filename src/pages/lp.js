@@ -34,13 +34,13 @@ const Lp = () => {
     <>
       <Header />
       <CssBaseline />
-      {/* <Container
+      <Container
         maxWidth="false"
         sx={{ height: "100vh" }}
         className="birds-wrap no-padding-container"
       >
         <Birds />
-      </Container> */}
+      </Container>
       <Container maxWidth="false">
         <Box
           maxWidth="sm"
