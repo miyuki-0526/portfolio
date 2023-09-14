@@ -3,13 +3,16 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
+
 import Birds from "../components/animation/birds";
+import ScrollTarget from "../components/common/scrolltarget";
 import Button from "@mui/material/Button";
+
 import myPhoto from "../assets/img/my_photo.png";
 import airRegi from "../assets/img/works/AirRegi.png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-
 import bootstrap from "../assets/img/icons/bootstrap-logo.svg";
 import css from "../assets/img/icons/css-logo.svg";
 import django from "../assets/img/icons/django-logo.svg";
@@ -24,7 +27,7 @@ import ts from "../assets/img/icons/ts-logo.svg";
 import wordpress from "../assets/img/icons/wordpress-logo.svg";
 import xd from "../assets/img/icons/xd-logo.svg";
 
-export default function Lp() {
+const Lp = () => {
   return (
     <>
       <CssBaseline />
@@ -47,6 +50,8 @@ export default function Lp() {
         </Box>
       </Container>
       <Container maxWidth="false" className="no-padding-container">
+        <ScrollTarget id="aaa" />
+        <ScrollTarget id="bbb" />
         <Box
           sx={{ height: "100vh", minWidth: "100%" }}
           className="about-me-box"
@@ -185,4 +190,6 @@ export default function Lp() {
       </Container>
     </>
   );
-}
+};
+
+export default Lp;

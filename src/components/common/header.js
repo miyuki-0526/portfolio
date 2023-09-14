@@ -1,6 +1,6 @@
 import * as React from "react";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import Nav from "./nav.js";
 
 export default function Header() {
   return (
@@ -12,11 +12,7 @@ export default function Header() {
           </Typography>
         </div>
         <div className="menu">
-          <Button>About me</Button>
-          <Button>Works</Button>
-          <Button>Skills</Button>
-          <Button>Design</Button>
-          <Button>My plofile</Button>
+          <Nav />
         </div>
       </section>
     </header>
