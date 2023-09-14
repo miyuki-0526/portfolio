@@ -5,14 +5,14 @@ var
 =========== */
 
 :root {
-  --primary-color: linear-gradient(135deg, rgb(112 137 218), rgb(106 231 244));
-  --secondary-color: linear-gradient(
+  --base-color: linear-gradient(135deg, rgb(112 137 218), rgb(106 231 244));
+  --primary-color: linear-gradient(
     135deg,
     rgba(165, 168, 134, 0.66) -0.76%,
     rgba(89, 87, 90, 0.9) 81.21%
   );
-  --accent-text-color: #da9e35;
-  --accent-color: linear-gradient(
+  --secondary-color-text-color: #da9e35;
+  --secondary-color-color: linear-gradient(
     135deg,
     #fff0ae 23.1%,
     #ffad4e 55.31%,
