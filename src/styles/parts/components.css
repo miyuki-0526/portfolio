@@ -22,16 +22,20 @@ header.header-fixed {
   position: fixed;
   top: 0;
   background-color: #ffffff;
+  width: 100%;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.28);
 }
 
 header.header-fixed h1.MuiTypography-h1 {
-  font-size: 20px;
+  font-size: 22px;
   color: var(--text-black);
+  margin-bottom: 0;
 }
 
-/* header:not(.header-fixed) .menu button {
-  color: #1976d2;
-} */
+header.header-fixed section {
+  justify-content: space-between;
+  margin: 0.3rem 1.5rem;
+}
 
 /* ========
  lp-contents
