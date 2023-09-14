@@ -18,6 +18,17 @@ header h1.MuiTypography-h1 {
   color: #fff;
 }
 
+header.header-fixed {
+  mix-blend-mode: initial;
+  position: fixed;
+  top: 0;
+}
+
+header.header-fixed h1.MuiTypography-h1 {
+  font-size: 20px;
+  color: var(--text-black);
+}
+
 /* ========
  lp-contents
 =========  */
