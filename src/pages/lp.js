@@ -1,19 +1,19 @@
-import * as React from "react";
-import CssBaseline from "@mui/material/CssBaseline";
-import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
+import React from "react";
+import { CssBaseline, Box, Container, Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
-
 import Birds from "../components/animation/birds";
 import ScrollTarget from "../components/common/scrolltarget";
-import Button from "@mui/material/Button";
+import Header from "../components/common/header";
 
+// img
 import myPhoto from "../assets/img/my_photo.png";
 import airRegi from "../assets/img/works/AirRegi.png";
 
+// FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+// icon
 import bootstrap from "../assets/img/icons/bootstrap-logo.svg";
 import css from "../assets/img/icons/css-logo.svg";
 import django from "../assets/img/icons/django-logo.svg";
@@ -27,7 +27,6 @@ import react from "../assets/img/icons/react-logo.svg";
 import ts from "../assets/img/icons/ts-logo.svg";
 import wordpress from "../assets/img/icons/wordpress-logo.svg";
 import xd from "../assets/img/icons/xd-logo.svg";
-import Header from "../components/common/header";
 
 const Lp = () => {
   return (
@@ -55,6 +54,7 @@ const Lp = () => {
       <Container
         maxWidth="false"
         className="no-padding-container about-me-conteiner"
+        component="section"
       >
         <ScrollTarget id="About" />
         <Box
@@ -81,6 +81,7 @@ const Lp = () => {
       <Container
         maxWidth="false"
         className="no-padding-container works-conteiner"
+        component="section"
       >
         <ScrollTarget id="Works" />
         <Box className="works-contents">
@@ -102,7 +103,11 @@ const Lp = () => {
           </Box>
         </Box>
       </Container>
-      <Container maxWidth="false" className="skills-conteiner">
+      <Container
+        maxWidth="false"
+        className="skills-conteiner"
+        component="section"
+      >
         <ScrollTarget id="Skills" />
         <Typography variant="h2" gutterBottom>
           Skils
@@ -132,6 +137,7 @@ const Lp = () => {
       <Container
         maxWidth="false"
         className="no-padding-container career-history-container"
+        component="section"
       >
         <ScrollTarget id="Career" />
         <Box className="career-history-contents">
@@ -159,6 +165,7 @@ const Lp = () => {
       <Container
         maxWidth="false"
         className="no-padding-container contact-container"
+        component="section"
       >
         <ScrollTarget id="Contact" />
         <Box className="contact-contents">

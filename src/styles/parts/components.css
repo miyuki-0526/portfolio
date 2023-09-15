@@ -254,3 +254,16 @@ footer {
   background-color: #494949;
   color: #fff;
 }
+
+/* ======
+close-header
+====== */
+div.close-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem;
+}
+.close-header svg {
+  font-size: 2rem;
+}

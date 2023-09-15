@@ -9,13 +9,17 @@ const ScrollTarget = ({ id }) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (elementId == id) {
-      myRef.current.scrollIntoView({ behavior: "smooth" });
+    if (elementId === id) {
+      const yOffset = -100; // 30px上にオフセット
+      const element = myRef.current;
+      const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+
+      window.scrollTo({ top: y, behavior: "smooth" });
       dispatch(setTargetElement(null));
     }
   }, [elementId]);
 
-  return <div ref={myRef}></div>;
+  return <div ref={myRef} id={id}></div>;
 };
 
 export default ScrollTarget;
