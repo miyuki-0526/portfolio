@@ -16,7 +16,7 @@ export const theme = createTheme({
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Lp />} />
           <Route path="/workTemplate" element={<WorkTemplate />} />
