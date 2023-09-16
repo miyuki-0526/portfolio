@@ -36,12 +36,13 @@ fonts
 /* ===========
 texts
 =========== */
-html {
+body #root {
   color: #333;
 }
 
 h1.MuiTypography-h1,
-h2.MuiTypography-h2 {
+h2.MuiTypography-h2,
+article h1.MuiTypography-h1 {
   font-family: "Montserrat", sans-serif;
 }
 p.MuiTypography-body1 {
@@ -64,4 +65,18 @@ p.MuiTypography-body1 {
 }
 .white-text {
   color: #fff;
+}
+article h1.MuiTypography-h1 {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+article h2.MuiTypography-h2 {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
 }

@@ -7,7 +7,7 @@ import Header from "../components/common/header";
 
 // img
 import myPhoto from "../assets/img/my_photo.png";
-import airRegi from "../assets/img/works/AirRegi.png";
+import airRegi from "../assets/img/works/AirRegi/AirRegi-top.png";
 
 // FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
