@@ -2,10 +2,18 @@ import { airRegiImages } from "./workDatas/airRegiImages";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-const ImageGalleryCreater = () => {
+const ImageGalleryCreater = (props) => {
+  const imagesList = [{ key: "airRegi", value: airRegiImages }];
+
+  // sort target images from imagesList
+  const imageSet = imagesList.filter((image) => {
+    return image.key === props.site;
+  });
+  const items = imageSet.length > 0 ? imageSet[0].value : [];
+
   return (
     <ImageGallery
-      items={airRegiImages}
+      items={items}
       showNav={false}
       autoPlay={false}
       showFullscreenButton={false}

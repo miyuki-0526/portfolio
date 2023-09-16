@@ -30,7 +30,7 @@ const WorkTemplate = () => {
           </Typography>
         </Box>
         <Box component="section">
-          <ImageGalleryCreater />
+          <ImageGalleryCreater site="airRegi" />
           <Box component="div" className="work-imgs-container">
             <Box component="div" className="work-imgs-preview-wrap">
               <Box component="div" className="work-imgs-preview-inner">
