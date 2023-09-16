@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { CssBaseline, Box, Container, Typography } from "@mui/material";
 import { HashLink } from "react-router-hash-link";
+import ImageGalleryCreater from "../components/imageGalleryCreater";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const WorkTemplate = () => {
@@ -29,6 +30,7 @@ const WorkTemplate = () => {
           </Typography>
         </Box>
         <Box component="section">
+          <ImageGalleryCreater />
           <Box component="div" className="work-imgs-container">
             <Box component="div" className="work-imgs-preview-wrap">
               <Box component="div" className="work-imgs-preview-inner">

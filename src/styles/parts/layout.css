@@ -12,3 +12,19 @@
 .m-1rem {
   margin: 1rem 0;
 }
+
+/* React Image Gallery */
+article
+  .image-gallery-content
+  .image-gallery-slide.work-img
+  .image-gallery-image {
+  max-width: 600px;
+  max-height: fit-content;
+}
+article
+  .image-gallery-content
+  .image-gallery-slide.work-img-sp
+  .image-gallery-image {
+  max-width: 300px;
+  max-height: fit-content;
+}
