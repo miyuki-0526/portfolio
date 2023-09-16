@@ -1,4 +1,4 @@
-import { airRegiImages } from "./workDatas/airRegiImages";
+import { airRegiImages } from "./workDatas/airRegi";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
