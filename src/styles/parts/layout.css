@@ -13,6 +13,38 @@
   margin: 1rem 0;
 }
 
+/* Work page  */
+.work-contents {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.work-introduction {
+  text-align: center;
+}
+
+section.work-contents {
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.work-imgs-container {
+  width: 70%;
+  max-width: 745px;
+}
+.work-description {
+  width: 30%;
+}
+button.image-gallery-thumbnail.work-thumbnail-img-sp {
+  width: 60%;
+}
+.image-gallery-thumbnails .image-gallery-thumbnails-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* React Image Gallery */
 article
   .image-gallery-content

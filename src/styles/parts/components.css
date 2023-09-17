@@ -267,3 +267,25 @@ div.close-header {
 .close-header svg {
   font-size: 2rem;
 }
+
+/* ======
+work-page
+====== */
+.work-background {
+  background-color: #ededed;
+}
+.work-contents-wraper {
+  background-color: #fff;
+}
+img.image-gallery-image,
+img.image-gallery-thumbnail-image {
+  border: 1px solid #d2d2d2;
+}
+.image-gallery-thumbnail.active,
+.image-gallery-thumbnail:focus {
+  outline: none;
+  border: 4px solid #75bfff;
+}
+.work-list li {
+  margin-bottom: 0.6rem;
+}

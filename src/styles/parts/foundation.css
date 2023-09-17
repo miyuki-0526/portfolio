@@ -38,6 +38,7 @@ texts
 =========== */
 body #root {
   color: #333;
+  font-size: 18px;
 }
 
 h1.MuiTypography-h1,
@@ -80,4 +81,3 @@ article h2.MuiTypography-h2 {
   width: 100%;
   text-align: center;
 }
-/* test */

@@ -9,51 +9,57 @@ const WorkTemplate = () => {
   return (
     <>
       <CssBaseline />
-      <Container maxWidth="false" className="close-header">
-        <HashLink to="/#Works">
-          <FontAwesomeIcon icon={faXmark} style={{ color: "#333333" }} />
-        </HashLink>
-      </Container>
-      <Container
-        maxWidth="false"
-        component="article"
-        className="no-padding-container"
-      >
-        <Box component="section">
-          <Typography variant="h1" gutterBottom>
-            Air REGI faq
-          </Typography>
-          <Typography variant="p" gutterBottom>
-            ・アコーディオンなど、セマンティックカラーやアイコンを効果的に使って記事を読みやすく整理するためのパーツを追加した。
-            ・チームで相談し動線の改善を行い、ユーザーの問題自己解決を向上すると共にお問い合わせの削減に取り組んだ。
-            ・アプリの機能がリリースされるたびに新機能を記事に追加した。
-          </Typography>
-        </Box>
-        <Box component="section">
-          <ImageGalleryCreater site="airRegi" />
-          <Box component="div" className="work-imgs-container">
-            <Box component="div" className="work-imgs-preview-wrap">
-              <Box component="div" className="work-imgs-preview-inner">
-                <img src="" />
-                <img src="" />
-                <img src="" />
-                <img src="" />
-                <img src="" />
+      <Container maxWidth="false" className="work-background">
+        <Container maxWidth="lg" className="work-contents-wraper">
+          <Box className="close-header">
+            <HashLink to="/#Works">
+              <FontAwesomeIcon icon={faXmark} style={{ color: "#333333" }} />
+            </HashLink>
+          </Box>
+          <Box
+            maxWidth="lg"
+            component="article"
+            className="no-padding-containe work-article"
+          >
+            <Box component="section" className="work-introduction">
+              <Typography variant="h1" gutterBottom>
+                Air REGI faq
+              </Typography>
+              <Typography variant="p" gutterBottom>
+                Maintenance and operation of the faq site of the registry
+                application
+              </Typography>
+            </Box>
+            <Box component="section" className="work-contents">
+              <Box component="div" className="work-imgs-container">
+                <ImageGalleryCreater site="airRegi" />
+              </Box>
+              <Box component="div" className="work-description">
+                <Typography variant="h2" gutterBottom>
+                  Work in charge
+                </Typography>
+                <Typography variant="p" gutterBottom>
+                  <ul className="work-list">
+                    <li>
+                      The team added parts to organize articles in an
+                      easy-to-read manner by effectively using semantic colors
+                      and icons, such as accordions.
+                    </li>
+                    <li>
+                      The team consulted and improved the flow of traffic to
+                      improve user self-resolution of problems and reduce the
+                      number of inquiries.
+                    </li>
+                    <li>
+                      Whenever a new feature of the application was released, we
+                      added the new feature to the article.
+                    </li>
+                  </ul>
+                </Typography>
               </Box>
             </Box>
-            <img src="" className="work-imgs-preview" />
           </Box>
-          <Box component="div" className="work-description">
-            <Typography variant="h2" gutterBottom>
-              Work in charge
-            </Typography>
-            <Typography variant="p" gutterBottom>
-              ・アコーディオンなど、記事を読みやすく整理するためのパーツの追加
-              ・チームで相談し、動線の改善、ユーザーの問題自己解決栗を向上すると共にお問い合わせの削減に取り組んだ。
-              ・アプリの機能がリリースされるたびに新機能を記事に追加した
-            </Typography>
-          </Box>
-        </Box>
+        </Container>
       </Container>
     </>
   );
