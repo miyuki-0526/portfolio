@@ -2,7 +2,9 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/common/footer";
 import Lp from "./pages/lp";
-import WorkTemplate from "./pages/workTemplate";
+import AirRegi from "./pages/airRegi";
+import AirPay from "./pages/airPay";
+import MyPortfolio from "./pages/myPortfolio";
 import "./styles/main.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
@@ -19,7 +21,9 @@ const App = () => {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Lp />} />
-          <Route path="/workTemplate" element={<WorkTemplate />} />
+          <Route path="/airRegi" element={<AirRegi />} />
+          <Route path="/airPay" element={<AirPay />} />
+          <Route path="/myPortfolio" element={<MyPortfolio />} />
         </Routes>
         <Footer />
       </BrowserRouter>

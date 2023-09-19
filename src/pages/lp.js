@@ -8,6 +8,8 @@ import Header from "../components/common/header";
 // img
 import myPhoto from "../assets/img/my_photo.png";
 import airRegi from "../assets/img/works/AirRegi/AirRegi-top.png";
+import airPay from "../assets/img/works/AirPay/AirPay-thumbnail-1.png";
+import myPortfolio from "../assets/img/works/myPortfolio/myPortfolio-thumbnail.png";
 
 // FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -90,14 +92,14 @@ const Lp = () => {
           </Typography>
           <Box className="works-img-wrap">
             <Box className="works-imges">
-              <Link to="/workTemplate">
+              <Link to="/myPortfolio">
+                <img src={myPortfolio} />
+              </Link>
+              <Link to="/airRegi">
                 <img src={airRegi} />
               </Link>
-              <Link to="/workTemplate">
-                <img src={airRegi} />
-              </Link>
-              <Link to="/workTemplate">
-                <img src={airRegi} />
+              <Link to="/airPay">
+                <img src={airPay} />
               </Link>
             </Box>
           </Box>
