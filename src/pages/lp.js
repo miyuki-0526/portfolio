@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { CssBaseline, Box, Container, Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import Birds from "../components/animation/birds";
@@ -78,12 +78,12 @@ const Lp = () => {
           </Box>
         </Box>
       </Container>
+      <ScrollTarget id="Works" />
       <Container
         maxWidth="false"
         className="no-padding-container works-conteiner"
         component="section"
       >
-        <ScrollTarget id="Works" />
         <Box className="works-contents">
           <Typography variant="h2" className="white-text" gutterBottom>
             Works
