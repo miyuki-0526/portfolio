@@ -1,5 +1,5 @@
 import * as React from "react";
-import Typography from "@mui/material/Typography";
+import { Typography, Container, Box } from "@mui/material";
 import Nav from "./nav.js";
 import useScroll from "../../hooks/useScroll.js";
 import { useEffect, useState } from "react";
@@ -46,18 +46,24 @@ export default function Header() {
 
   return (
     <ThemeProvider theme={isFixed ? theme : headerTheme}>
-      <header className={isFixed ? "header-fixed" : ""}>
-        <section>
-          <div className="logo_wrap">
+      <Container
+        maxWidth="false"
+        className={
+          isFixed ? "header-fixed no-padding-container" : "no-padding-container"
+        }
+        component="header"
+      >
+        <Box component="section">
+          <Box component="div" className="logo_wrap">
             <Typography variant="h1" gutterBottom>
               Miyuki.T
             </Typography>
-          </div>
-          <div className="menu">
+          </Box>
+          <Box component="div" className="menu">
             <Nav />
-          </div>
-        </section>
-      </header>
+          </Box>
+        </Box>
+      </Container>
     </ThemeProvider>
   );
 }

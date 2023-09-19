@@ -60,3 +60,16 @@ article
   max-width: 300px;
   max-height: fit-content;
 }
+
+/* change display fot device */
+
+@media screen and (max-width: 744px) {
+  .only-bigger-sp {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 744px) {
+  .only-sp {
+    display: none !important;
+  }
+}
