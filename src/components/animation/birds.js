@@ -13,7 +13,7 @@ function Birds({ el }) {
       THREE: THREE,
       touchControls: true,
       gyroControls: false,
-      minHeight: 1000.0,
+      minHeight: 1280.0,
       minWidth: 200.0,
       scale: 1.0,
       scaleMobile: 1.0,
