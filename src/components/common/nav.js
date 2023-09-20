@@ -84,6 +84,7 @@ const TemporaryDrawer = () => {
         color="secondary"
         size="large"
         onClick={toggleDrawer("top", true)}
+        className="menu-button"
       >
         <FontAwesomeIcon icon={faBars} />
       </Button>

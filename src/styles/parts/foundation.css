@@ -49,15 +49,7 @@ article h1.MuiTypography-h1 {
 p.MuiTypography-body1 {
   font-family: "Roboto", sans-serif;
 }
-h1.MuiTypography-h1 {
-  font-size: 8rem;
-}
-h2.MuiTypography-h2 {
-  font-weight: bold;
-  margin-bottom: 0;
-  display: inline-block;
-  font-size: 3.2rem;
-}
+
 .fitst-view h2.MuiTypography-h2 {
   font-weight: 500;
 }

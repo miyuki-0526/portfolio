@@ -28,6 +28,22 @@ header {
 header h1.MuiTypography-h1 {
   font-weight: bold;
   color: #fff;
+  font-size: 8rem;
+}
+@media screen and (max-width: 1050px) {
+  header h1.MuiTypography-h1 {
+    font-size: 7.5rem;
+  }
+}
+@media screen and (max-width: 744px) {
+  header h1.MuiTypography-h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 455px) {
+  header h1.MuiTypography-h1 {
+    font-size: 4rem;
+  }
 }
 
 header.header-fixed {
@@ -40,14 +56,20 @@ header.header-fixed {
 }
 
 header.header-fixed h1.MuiTypography-h1 {
-  font-size: 22px;
+  font-size: 1.5rem;
   color: var(--text-black);
   margin-bottom: 0;
 }
 
 header.header-fixed section {
   justify-content: space-between;
-  margin: 0.3rem 1.5rem;
+  margin: 0.7rem 1.5rem;
+}
+
+button.menu-button {
+  min-width: auto;
+  padding: 0;
+  font-size: 1.5rem;
 }
 
 /* ========
@@ -59,8 +81,49 @@ header.header-fixed section {
   color: #fff;
   background-image: var(--base-color);
   margin-left: 30px;
+  max-width: 600px;
+  height: calc(100vh - 151px);
+  height: calc(100dvh - 151px);
 }
-
+h2.MuiTypography-h2 {
+  font-weight: bold;
+  margin-bottom: 0;
+  display: inline-block;
+  font-size: 3.2rem;
+}
+@media screen and (max-width: 744px) {
+  .fitst-view {
+    max-width: 400px;
+    height: calc(100vh - 121px);
+    height: calc(100dvh - 121px);
+  }
+  h2.MuiTypography-h2 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .fitst-view {
+    max-width: 300px;
+  }
+  h2.MuiTypography-h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 455px) {
+  .fitst-view {
+    height: calc(100vh - 97px);
+    height: calc(100dvh - 97px);
+  }
+}
+@media screen and (max-width: 400px) {
+  .fitst-view {
+    max-width: 250px;
+    margin-left: 10px;
+  }
+  h2.MuiTypography-h2 {
+    font-size: 1.6rem;
+  }
+}
 /* about me */
 .about-me-box {
   text-align: center;
@@ -74,9 +137,19 @@ header.header-fixed section {
   background-color: var(--background-white);
   position: relative;
   max-width: 569px;
-  padding: 50px;
-  padding-bottom: 235px;
-  margin-top: 75px;
+  padding: 50px 50px 235px 50px;
+  margin: 75px 20px 0;
+}
+@media screen and (max-width: 730px) {
+  .about-me-contents {
+    font-size: 7.5rem;
+    padding: 35px 30px 235px 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about-me-contents {
+    padding: 35px 30px 155px 30px;
+  }
 }
 
 .about-me-contents::before,
@@ -89,9 +162,8 @@ header.header-fixed section {
   height: 100px;
   z-index: -1;
   background-image: var(--primary-color);
-  bottom: 20px;
+  bottom: 100px;
   left: calc(50% - 50vw);
-  transform: translateY(-50%);
   width: 50vw;
 }
 
@@ -107,6 +179,11 @@ header.header-fixed section {
 .my-photo {
   width: 200px;
   position: absolute;
+}
+@media screen and (max-width: 500px) {
+  .my-photo {
+    width: 130px;
+  }
 }
 
 /* works */
@@ -158,15 +235,6 @@ header.header-fixed section {
   justify-content: center;
   padding: 25px 0;
 }
-
-/* .skils-background {
-  background-image: var(--base-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin: 24px 0;
-} */
 
 .skills {
   display: flex;

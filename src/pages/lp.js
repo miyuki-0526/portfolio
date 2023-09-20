@@ -42,12 +42,8 @@ const Lp = () => {
       >
         <Birds />
       </Container>
-      <Container maxWidth="false">
-        <Box
-          maxWidth="sm"
-          sx={{ height: "calc( 100vh - 151px )" }}
-          className="fitst-view"
-        >
+      <Container maxWidth="false" component="section">
+        <Box className="fitst-view">
           <Typography variant="h2" gutterBottom>
             I am a curious programmer and designer!
           </Typography>
@@ -60,7 +56,7 @@ const Lp = () => {
       >
         <ScrollTarget id="About" />
         <Box
-          sx={{ height: "100vh", minWidth: "100%" }}
+          sx={{ minHeight: "100vh", minWidth: "100%" }}
           className="about-me-box"
         >
           <Typography variant="h2" gutterBottom>
@@ -80,12 +76,12 @@ const Lp = () => {
           </Box>
         </Box>
       </Container>
-      <ScrollTarget id="Works" />
       <Container
         maxWidth="false"
         className="no-padding-container works-conteiner"
         component="section"
       >
+        <ScrollTarget id="Works" />
         <Box className="works-contents">
           <Typography variant="h2" className="white-text" gutterBottom>
             Works
