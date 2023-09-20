@@ -88,18 +88,27 @@ const Lp = () => {
           </Typography>
           <Box className="works-img-wrap">
             <Box className="works-imges">
-              <Link to="/myPortfolio" data-site-title="My portfolio">
-                <img src={myPortfolio} />
-              </Link>
-              <Link
-                to="/airRegi"
-                data-site-title="Registry application FAQ site"
-              >
-                <img src={airRegi} />
-              </Link>
-              <Link to="/airPay" data-site-title="Payment terminal FAQ site">
-                <img src={airPay} />
-              </Link>
+              <figure className="work-figure">
+                <Link to="/myPortfolio" data-site-title="My portfolio">
+                  <img src={myPortfolio} />
+                </Link>
+                <figcaption>My portfolio</figcaption>
+              </figure>
+              <figure className="work-figure">
+                <Link
+                  to="/airRegi"
+                  data-site-title="Registry application FAQ site"
+                >
+                  <img src={airRegi} />
+                </Link>
+                <figcaption>Registry application FAQ site</figcaption>
+              </figure>
+              <figure className="work-figure">
+                <Link to="/airPay" data-site-title="Payment terminal FAQ site">
+                  <img src={airPay} />
+                </Link>
+                <figcaption>Payment terminal FAQ site</figcaption>
+              </figure>
             </Box>
           </Box>
         </Box>

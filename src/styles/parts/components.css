@@ -299,6 +299,20 @@ h2.MuiTypography-h2 {
   }
 }
 
+.work-figure {
+  margin: 0;
+}
+.work-figure figcaption {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .work-figure figcaption {
+    display: block;
+    color: #fff;
+    margin-bottom: 1.2rem;
+  }
+}
+
 /* skils */
 
 .skills-conteiner {
