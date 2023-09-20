@@ -6,6 +6,7 @@ var
 
 :root {
   --base-color: linear-gradient(135deg, rgb(112 137 218), rgb(106 231 244));
+  --base-text-color: #1992dd;
   --primary-color: linear-gradient(
     135deg,
     rgba(165, 168, 134, 0.66) -0.76%,

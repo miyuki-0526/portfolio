@@ -1,4 +1,21 @@
 /* ========
+ loading-animetion
+======== */
+/* .loading-animetion {
+  color: var(--base-text-color);
+} */
+
+.MuiContainer-root.loading-animetion-background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MuiBox-root.loading-animetion-wrapper {
+  margin-top: -50px;
+}
+
+/* ========
  common
 ======== */
 .about-me-conteiner,

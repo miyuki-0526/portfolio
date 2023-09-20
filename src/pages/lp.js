@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { CssBaseline, Box, Container, Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import Birds from "../components/animation/birds";
@@ -33,8 +33,8 @@ import xd from "../assets/img/icons/xd-logo.svg";
 const Lp = () => {
   return (
     <>
-      <Header />
       <CssBaseline />
+      <Header />
       <Container
         maxWidth="false"
         sx={{ height: "100vh" }}
