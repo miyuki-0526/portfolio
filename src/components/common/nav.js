@@ -103,7 +103,11 @@ const Nav = () => {
     <>
       <Box className="only-bigger-sp">
         {navList.map((obj, index) => (
-          <ScrollButton targetId={obj.targetId} text={obj.text} />
+          <ScrollButton
+            key={obj.targetId}
+            targetId={obj.targetId}
+            text={obj.text}
+          />
         ))}
       </Box>
       <Box className="only-sp">
