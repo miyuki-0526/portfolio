@@ -30,11 +30,26 @@ import react from "../assets/img/icons/react-logo.svg";
 import ts from "../assets/img/icons/ts-logo.svg";
 import wordpress from "../assets/img/icons/wordpress-logo.svg";
 import xd from "../assets/img/icons/xd-logo.svg";
+import { useInView } from "react-intersection-observer";
+
+const inViewObj = () => ({
+  rootMargin: `-${String(parseInt(window.innerHeight / 4))}px`,
+  triggerOnce: true,
+});
 
 const Lp = () => {
   useEffect(() => {
     textAnimation();
   }, []);
+
+  console.log(inViewObj());
+
+  const { ref: ref1, inView: inView1 } = useInView(inViewObj());
+  const { ref: ref2, inView: inView2 } = useInView(inViewObj());
+  const { ref: ref3, inView: inView3 } = useInView(inViewObj());
+  const { ref: ref4, inView: inView4 } = useInView(inViewObj());
+  const { ref: ref5, inView: inView5 } = useInView(inViewObj());
+
   return (
     <>
       <CssBaseline />
@@ -61,11 +76,17 @@ const Lp = () => {
         maxWidth="false"
         className="no-padding-container about-me-conteiner"
         component="section"
+        ref={ref1}
       >
         <ScrollTarget id="About" />
+
         <Box
           sx={{ minHeight: "100vh", minWidth: "100%" }}
-          className="about-me-box"
+          className={
+            inView1
+              ? "about-me-box scroll-fadeup scroll-wait"
+              : "about-me-box scroll-wait"
+          }
         >
           <Typography variant="h2" gutterBottom>
             About me
@@ -88,9 +109,16 @@ const Lp = () => {
         maxWidth="false"
         className="no-padding-container works-conteiner"
         component="section"
+        ref={ref2}
       >
         <ScrollTarget id="Works" />
-        <Box className="works-contents">
+        <Box
+          className={
+            inView2
+              ? "works-contents scroll-fadeup scroll-wait"
+              : "works-contents scroll-wait"
+          }
+        >
           <Typography variant="h2" className="white-text" gutterBottom>
             Works
           </Typography>
@@ -125,12 +153,19 @@ const Lp = () => {
         maxWidth="false"
         className="skills-conteiner"
         component="section"
+        ref={ref3}
       >
         <ScrollTarget id="Skills" />
-        <Typography variant="h2" gutterBottom>
-          Skils
-        </Typography>
-        <Box className="skils-contents">
+        <Box
+          className={
+            inView3
+              ? "skils-contents scroll-fadeup scroll-wait"
+              : "skils-contents scroll-wait"
+          }
+        >
+          <Typography variant="h2" gutterBottom>
+            Skils
+          </Typography>
           <Box className="skills">
             <img src={wordpress} className="skill-icon" alt="wordpress-icon" />
             <img src={bootstrap} className="skill-icon" />
@@ -156,9 +191,16 @@ const Lp = () => {
         maxWidth="false"
         className="no-padding-container career-history-container"
         component="section"
+        ref={ref4}
       >
         <ScrollTarget id="Career" />
-        <Box className="career-history-contents">
+        <Box
+          className={
+            inView4
+              ? "career-history-contents scroll-fadeup scroll-wait"
+              : "career-history-contents scroll-wait"
+          }
+        >
           <Box maxWidth="sm">
             <Typography variant="h2" className="white-text" gutterBottom>
               Career History
@@ -184,9 +226,16 @@ const Lp = () => {
         maxWidth="false"
         className="no-padding-container contact-container"
         component="section"
+        ref={ref5}
       >
         <ScrollTarget id="Contact" />
-        <Box className="contact-contents">
+        <Box
+          className={
+            inView5
+              ? "contact-contents scroll-fadeup scroll-wait"
+              : "contact-contents scroll-wait"
+          }
+        >
           <Box className="contact-contents-inner" maxWidth="sm">
             <Typography variant="h2" gutterBottom>
               Contact

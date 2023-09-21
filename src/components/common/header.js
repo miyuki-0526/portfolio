@@ -16,7 +16,7 @@ const headerTheme = createTheme({
   },
 });
 
-export default function Header() {
+const Header = () => {
   const [isFixed, setIsFixed] = useState(false);
   const scrollPosition = useScroll();
   const dispatch = useDispatch();
@@ -70,4 +70,5 @@ export default function Header() {
       </Container>
     </ThemeProvider>
   );
-}
+};
+export default Header;
