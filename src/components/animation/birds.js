@@ -6,23 +6,25 @@ function Birds({ el }) {
   const myRef = useRef(null);
 
   useEffect(() => {
-    const vantaEffect = BIRDS({
-      el: myRef.current,
-      color1: 0x3a6fd2,
-      color2: 0xc882c8,
-      THREE: THREE,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 1280.0,
-      minWidth: 200.0,
-      scale: 1.0,
-      scaleMobile: 1.0,
-      colorMode: "variance",
-      backgroundAlpha: 0.0,
-    });
-    return () => {
-      if (vantaEffect) vantaEffect.destroy();
-    };
+    setTimeout(() => {
+      const vantaEffect = BIRDS({
+        el: myRef.current,
+        color1: 0x3a6fd2,
+        color2: 0xc882c8,
+        THREE: THREE,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 1280.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        colorMode: "variance",
+        backgroundAlpha: 0.0,
+      });
+      return () => {
+        if (vantaEffect) vantaEffect.destroy();
+      };
+    }, 4000);
   }, []);
 
   return <div ref={myRef}>{el}</div>;
