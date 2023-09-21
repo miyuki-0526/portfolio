@@ -35,7 +35,6 @@ const Lp = () => {
   useEffect(() => {
     textAnimation();
   }, []);
-
   return (
     <>
       <CssBaseline />

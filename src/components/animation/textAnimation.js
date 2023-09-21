@@ -1,5 +1,4 @@
 const textAnimation = () => {
-  console.log("aaaaaaaaaa");
   const target = document.querySelectorAll(".text-anime");
 
   target.forEach((e) => {
@@ -24,7 +23,6 @@ const textAnimation = () => {
 
   setTimeout(() => {
     target.forEach((e, i) => {
-      console.log(i);
       if (i == 1) {
         setTimeout(() => {
           e.classList.remove("text-anime-opacity");
