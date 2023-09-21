@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { CssBaseline, Box, Container, Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import Birds from "../components/animation/birds";
 import ScrollTarget from "../components/common/scrolltarget";
 import Header from "../components/common/header";
+import textAnimation from "../components/animation/textAnimation";
 
 // img
 import myPhoto from "../assets/img/my_photo.png";
@@ -31,6 +32,10 @@ import wordpress from "../assets/img/icons/wordpress-logo.svg";
 import xd from "../assets/img/icons/xd-logo.svg";
 
 const Lp = () => {
+  useEffect(() => {
+    textAnimation();
+  }, []);
+
   return (
     <>
       <CssBaseline />
