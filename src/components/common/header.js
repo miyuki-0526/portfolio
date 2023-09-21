@@ -55,7 +55,11 @@ export default function Header() {
       >
         <Box component="section">
           <Box component="div" className="logo_wrap">
-            <Typography variant="h1" gutterBottom>
+            <Typography
+              className="text-anime text-anime-opacity"
+              variant="h1"
+              gutterBottom
+            >
               Miyuki.T
             </Typography>
           </Box>

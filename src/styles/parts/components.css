@@ -94,6 +94,44 @@ button.menu-button {
 =========  */
 
 /* fitst-view */
+.text-anime-opacity,
+.text-anime span {
+  opacity: 0;
+}
+.text-anime.start-text-anime span {
+  animation: glow_anime_on 1s ease-out forwards;
+}
+
+@keyframes glow_anime_on {
+  0% {
+    opacity: 0;
+    text-shadow: 0 0 0 #fff, 0 0 0 #fff;
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 10px #fff, 0 0 15px #fff;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 0 #fff, 0 0 0 #fff;
+  }
+}
+
+.birds-container {
+  animation: fadeIn 5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .fitst-view {
   color: #fff;
   background-image: var(--base-color);
@@ -101,7 +139,23 @@ button.menu-button {
   max-width: 600px;
   height: calc(100vh - 151px);
   height: calc(100dvh - 151px);
+  animation: fadeup 2s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }
+
+@keyframes fadeup {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 h2.MuiTypography-h2 {
   font-weight: bold;
   margin-bottom: 0;

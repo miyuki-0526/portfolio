@@ -8,6 +8,7 @@ import MyPortfolio from "./pages/myPortfolio";
 import "./styles/main.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import LoadingAnimation from "./components/animation/loadingAnimation";
+import textAnimation from "./components/animation/textAnimation";
 
 export const theme = createTheme({
   palette: {
@@ -19,12 +20,15 @@ export const theme = createTheme({
 const App = () => {
   const [loading, setLoading] = useState(true);
 
-  // Delete spinner when screen is finished loading.
   useEffect(() => {
     window.onload = () => {
+      // Delete spinner when screen is finished loading.
       setTimeout(() => {
         setLoading(false);
       }, 500);
+
+      // text animation
+      textAnimation();
     };
   }, []);
 
@@ -34,20 +38,31 @@ const App = () => {
   }, 3000);
   return (
     <ThemeProvider theme={theme}>
-      {loading ? (
-        <LoadingAnimation />
-      ) : (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
-          <Routes>
-            <Route path="/" element={<Lp />} />
-            <Route path="/airRegi" element={<AirRegi />} />
-            <Route path="/airPay" element={<AirPay />} />
-            <Route path="/myPortfolio" element={<MyPortfolio />} />
-          </Routes>
-          <Footer />
-        </BrowserRouter>
-      )}
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Routes>
+          <Route path="/" element={<Lp />} />
+          <Route path="/airRegi" element={<AirRegi />} />
+          <Route path="/airPay" element={<AirPay />} />
+          <Route path="/myPortfolio" element={<MyPortfolio />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </ThemeProvider>
+    // <ThemeProvider theme={theme}>
+    //   {loading ? (
+    //     <LoadingAnimation />
+    //   ) : (
+    //     <BrowserRouter basename={process.env.PUBLIC_URL}>
+    //       <Routes>
+    //         <Route path="/" element={<Lp />} />
+    //         <Route path="/airRegi" element={<AirRegi />} />
+    //         <Route path="/airPay" element={<AirPay />} />
+    //         <Route path="/myPortfolio" element={<MyPortfolio />} />
+    //       </Routes>
+    //       <Footer />
+    //     </BrowserRouter>
+    //   )}
+    // </ThemeProvider>
   );
 };
 

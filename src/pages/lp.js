@@ -38,13 +38,17 @@ const Lp = () => {
       <Container
         maxWidth="false"
         sx={{ height: "100vh" }}
-        className="birds-wrap no-padding-container"
+        className="birds-container no-padding-container"
       >
         <Birds />
       </Container>
       <Container maxWidth="false" component="section">
         <Box className="fitst-view">
-          <Typography variant="h2" gutterBottom>
+          <Typography
+            className="text-anime text-anime-opacity"
+            variant="h2"
+            gutterBottom
+          >
             I am a curious programmer and designer!
           </Typography>
         </Box>
