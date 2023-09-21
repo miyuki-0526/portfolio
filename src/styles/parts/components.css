@@ -1,10 +1,6 @@
 /* ========
  loading-animetion
 ======== */
-/* .loading-animetion {
-  color: var(--base-text-color);
-} */
-
 .MuiContainer-root.loading-animetion-background {
   height: 100vh;
   display: flex;
@@ -47,6 +43,28 @@ header h1.MuiTypography-h1 {
   color: #fff;
   font-size: 8rem;
 }
+.text-anime-opacity,
+.text-anime span {
+  opacity: 0;
+}
+.text-anime.start-text-anime span {
+  animation: glow_anime_on 1s ease-out forwards;
+}
+
+@keyframes glow_anime_on {
+  0% {
+    opacity: 0;
+    text-shadow: 0 0 0 #fff, 0 0 0 #fff;
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 10px #fff, 0 0 15px #fff;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 0 #fff, 0 0 0 #fff;
+  }
+}
 @media screen and (max-width: 1050px) {
   header h1.MuiTypography-h1 {
     font-size: 7.5rem;
@@ -82,7 +100,25 @@ header.header-fixed section {
   justify-content: space-between;
   margin: 0.7rem 1.5rem;
 }
+.menu {
+  animation: fadedown 1s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
 
+@keyframes fadedown {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 button.menu-button {
   min-width: auto;
   padding: 0;
@@ -94,32 +130,10 @@ button.menu-button {
 =========  */
 
 /* fitst-view */
-.text-anime-opacity,
-.text-anime span {
-  opacity: 0;
-}
-.text-anime.start-text-anime span {
-  animation: glow_anime_on 1s ease-out forwards;
-}
-
-@keyframes glow_anime_on {
-  0% {
-    opacity: 0;
-    text-shadow: 0 0 0 #fff, 0 0 0 #fff;
-  }
-  50% {
-    opacity: 1;
-    text-shadow: 0 0 10px #fff, 0 0 15px #fff;
-  }
-  100% {
-    opacity: 1;
-    text-shadow: 0 0 0 #fff, 0 0 0 #fff;
-  }
-}
 
 .birds-container {
   animation: fadeIn 5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
-  animation-delay: 1s;
+  animation-delay: 6s;
   opacity: 0;
 }
 
@@ -139,12 +153,12 @@ button.menu-button {
   max-width: 600px;
   height: calc(100vh - 151px);
   height: calc(100dvh - 151px);
-  animation: fadeup 2s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+  animation: faderight 2s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }
 
-@keyframes fadeup {
+@keyframes faderight {
   0% {
-    transform: translateY(30px);
+    transform: translateX(-30px);
     opacity: 0;
   }
   80% {
@@ -152,7 +166,7 @@ button.menu-button {
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 

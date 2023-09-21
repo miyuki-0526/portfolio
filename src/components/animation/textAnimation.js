@@ -19,13 +19,23 @@ const textAnimation = () => {
         textbox += t;
       }
     });
-    e.classList.remove("text-anime-opacity");
     e.innerHTML = textbox;
   });
 
-  target.forEach((e) => {
-    e.classList.add("start-text-anime");
-  });
+  setTimeout(() => {
+    target.forEach((e, i) => {
+      console.log(i);
+      if (i == 1) {
+        setTimeout(() => {
+          e.classList.remove("text-anime-opacity");
+          e.classList.add("start-text-anime");
+        }, 1000);
+      } else {
+        e.classList.remove("text-anime-opacity");
+        e.classList.add("start-text-anime");
+      }
+    });
+  }, 1000);
 };
 
 export default textAnimation;
