@@ -16,7 +16,7 @@ const Birds = ({ el }) => {
           THREE: THREE,
           touchControls: true,
           gyroControls: false,
-          minHeight: 1280.0,
+          minHeight: window.innerHeight,
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
