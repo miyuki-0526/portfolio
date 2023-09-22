@@ -1,11 +1,35 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.74db7f8c.css",
-    "main.js": "/portfolio/static/js/main.55692f62.js",
-    "static/js/496.c6af6c87.chunk.js": "/portfolio/static/js/496.c6af6c87.chunk.js",
+    "main.css": "/portfolio/static/css/main.56942ec5.css",
+    "main.js": "/portfolio/static/js/main.8dd07b53.js",
+    "static/js/496.68e4681f.chunk.js": "/portfolio/static/js/496.68e4681f.chunk.js",
+    "static/media/AirRegi-4.png": "/portfolio/static/media/AirRegi-4.0f5c2caf921842177be4.png",
+    "static/media/AirPay-3.png": "/portfolio/static/media/AirPay-3.e3cedf157c2dd37d7bd7.png",
+    "static/media/AirRegi-3.png": "/portfolio/static/media/AirRegi-3.7b819d41f19d8d925ac2.png",
     "static/media/my_photo.png": "/portfolio/static/media/my_photo.a5e460508095601c0bb2.png",
-    "static/media/AirRegi.png": "/portfolio/static/media/AirRegi.8cae9739317b70213cd1.png",
+    "static/media/AirRegi-5.png": "/portfolio/static/media/AirRegi-5.587dbaf65a1d8a1df5d2.png",
+    "static/media/AirPay-thumbnail-1.png": "/portfolio/static/media/AirPay-thumbnail-1.1729fe48099248397fe1.png",
+    "static/media/myPortfolio.png": "/portfolio/static/media/myPortfolio.f68f372f22aff67aeb37.png",
+    "static/media/AirRegi-sp.png": "/portfolio/static/media/AirRegi-sp.700642f35e69ae7602c4.png",
+    "static/media/AirPay-1.png": "/portfolio/static/media/AirPay-1.3b5e75e30de13d10ec6b.png",
+    "static/media/myPortfolio-sp.png": "/portfolio/static/media/myPortfolio-sp.0ceee84254f035924a4c.png",
+    "static/media/AirRegi-1.png": "/portfolio/static/media/AirRegi-1.abb9bf53716d2395ec9c.png",
+    "static/media/AirPay-thumbnail-3.png": "/portfolio/static/media/AirPay-thumbnail-3.27b16b3556e520a9c3af.png",
+    "static/media/AirPay-sp.png": "/portfolio/static/media/AirPay-sp.05d5d36f44f48d8ec40a.png",
+    "static/media/AirRegi-top.png": "/portfolio/static/media/AirRegi-top.8cae9739317b70213cd1.png",
+    "static/media/myPortfolio-thumbnail.png": "/portfolio/static/media/myPortfolio-thumbnail.85bfe5d5516fc13800af.png",
+    "static/media/AirRegi-2.png": "/portfolio/static/media/AirRegi-2.242395c62d9922388c6b.png",
+    "static/media/AirPay-thumbnail-2.png": "/portfolio/static/media/AirPay-thumbnail-2.7dd51a4bf2c0d7c29d41.png",
+    "static/media/AirPay-thumbnail-sp.png": "/portfolio/static/media/AirPay-thumbnail-sp.cbd5d8f7f69a5e92fdf6.png",
+    "static/media/AirPay-2.png": "/portfolio/static/media/AirPay-2.cc73b12d867150376a0f.png",
+    "static/media/AirRegi-thumbnail-3.png": "/portfolio/static/media/AirRegi-thumbnail-3.d4f8440341c19be83aa5.png",
+    "static/media/AirRegi-thumbnail-4.png": "/portfolio/static/media/AirRegi-thumbnail-4.2a01d7364314982b6bfa.png",
+    "static/media/AirRegi-thumbnail-5.png": "/portfolio/static/media/AirRegi-thumbnail-5.da7f749663e9a1ef83fa.png",
+    "static/media/AirRegi-thumbnail-1.png": "/portfolio/static/media/AirRegi-thumbnail-1.66c4bedb9f4352b549c3.png",
+    "static/media/AirRegi-thumbnail-sp.png": "/portfolio/static/media/AirRegi-thumbnail-sp.60aef44f97286efce82a.png",
     "static/media/jquery-logo.svg": "/portfolio/static/media/jquery-logo.8365a815787c21a4e7f9ad13c4cee946.svg",
+    "static/media/myPortfolio-thumbnail-sp.png": "/portfolio/static/media/myPortfolio-thumbnail-sp.578d085dabf8d42c05f9.png",
+    "static/media/AirRegi-thumbnail-2.png": "/portfolio/static/media/AirRegi-thumbnail-2.eed1ebfa6cd0ffab7246.png",
     "static/media/django-logo.svg": "/portfolio/static/media/django-logo.326610a9cd55bf5bd7b2e2ee31062f9e.svg",
     "static/media/photoshop-logo.svg": "/portfolio/static/media/photoshop-logo.21b3c1e00213c9613773022511f98503.svg",
     "static/media/xd-logo.svg": "/portfolio/static/media/xd-logo.d42e60c4655af5aa02c5367d68ddafa1.svg",
@@ -19,12 +43,12 @@
     "static/media/css-logo.svg": "/portfolio/static/media/css-logo.6ec1697a406483c72ccf775894d16777.svg",
     "static/media/html-logo.svg": "/portfolio/static/media/html-logo.5804150e47fbeb132a5d2688f08ce4c8.svg",
     "static/media/react-logo.svg": "/portfolio/static/media/react-logo.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.74db7f8c.css.map": "/portfolio/static/css/main.74db7f8c.css.map",
-    "main.55692f62.js.map": "/portfolio/static/js/main.55692f62.js.map",
-    "496.c6af6c87.chunk.js.map": "/portfolio/static/js/496.c6af6c87.chunk.js.map"
+    "main.56942ec5.css.map": "/portfolio/static/css/main.56942ec5.css.map",
+    "main.8dd07b53.js.map": "/portfolio/static/js/main.8dd07b53.js.map",
+    "496.68e4681f.chunk.js.map": "/portfolio/static/js/496.68e4681f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74db7f8c.css",
-    "static/js/main.55692f62.js"
+    "static/css/main.56942ec5.css",
+    "static/js/main.8dd07b53.js"
   ]
 }
