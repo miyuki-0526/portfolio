@@ -76,7 +76,18 @@ article
   max-height: fit-content;
 }
 
-/* change display fot device */
+/* change display */
+.undisplay {
+  display: none !important;
+}
+.opacity-0 {
+  opacity: 0 !important;
+}
+.opacity-1 {
+  opacity: 1 !important;
+}
+
+/* change display for device */
 
 @media screen and (max-width: 743px) {
   .only-bigger-sp {

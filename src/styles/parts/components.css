@@ -521,6 +521,30 @@ img.image-gallery-thumbnail-image {
   margin-bottom: 0.6rem;
 }
 
+/* page-top-button */
+button.page-top-button {
+  display: flex;
+  position: fixed;
+  bottom: 60px;
+  right: 0;
+  background-image: var(--primary-color);
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  z-index: 10;
+  transition: all 0.5s 0s ease;
+}
+button.page-top-button:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
 /* animation */
 
 .scroll-fadeup {

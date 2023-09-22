@@ -42,8 +42,6 @@ const Lp = () => {
     textAnimation();
   }, []);
 
-  console.log(inViewObj());
-
   const { ref: ref1, inView: inView1 } = useInView(inViewObj());
   const { ref: ref2, inView: inView2 } = useInView(inViewObj());
   const { ref: ref3, inView: inView3 } = useInView(inViewObj());
