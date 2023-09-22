@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.56942ec5.css",
+    "main.css": "/portfolio/static/css/main.4035c4b1.css",
     "main.js": "/portfolio/static/js/main.8dd07b53.js",
     "static/js/496.68e4681f.chunk.js": "/portfolio/static/js/496.68e4681f.chunk.js",
     "static/media/AirRegi-4.png": "/portfolio/static/media/AirRegi-4.0f5c2caf921842177be4.png",
@@ -43,12 +43,12 @@
     "static/media/css-logo.svg": "/portfolio/static/media/css-logo.6ec1697a406483c72ccf775894d16777.svg",
     "static/media/html-logo.svg": "/portfolio/static/media/html-logo.5804150e47fbeb132a5d2688f08ce4c8.svg",
     "static/media/react-logo.svg": "/portfolio/static/media/react-logo.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.56942ec5.css.map": "/portfolio/static/css/main.56942ec5.css.map",
+    "main.4035c4b1.css.map": "/portfolio/static/css/main.4035c4b1.css.map",
     "main.8dd07b53.js.map": "/portfolio/static/js/main.8dd07b53.js.map",
     "496.68e4681f.chunk.js.map": "/portfolio/static/js/496.68e4681f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56942ec5.css",
+    "static/css/main.4035c4b1.css",
     "static/js/main.8dd07b53.js"
   ]
 }
