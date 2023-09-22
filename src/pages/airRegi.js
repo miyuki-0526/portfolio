@@ -4,8 +4,17 @@ import { CssBaseline, Box, Container, Typography } from "@mui/material";
 import { HashLink } from "react-router-hash-link";
 import ImageGalleryCreater from "../components/imageGalleryCreater";
 import "react-image-gallery/styles/css/image-gallery.css";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { setTargetElement } from "../redux/slices/scrollSlise";
 
 const AirRegi = () => {
+  // scroll to top
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(setTargetElement("Top"));
+  }, []);
+
   return (
     <>
       <CssBaseline />
