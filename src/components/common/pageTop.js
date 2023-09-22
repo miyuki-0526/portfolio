@@ -5,7 +5,6 @@ import { setTargetElement } from "../../redux/slices/scrollSlise";
 import { useDispatch } from "react-redux";
 
 const PageTop = (props) => {
-  console.log(props.dispStatus);
   const dispatch = useDispatch();
   return (
     <Button
