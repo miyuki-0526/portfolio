@@ -7,7 +7,7 @@ const Birds = ({ el }) => {
   const vantaEffect = useRef(null);
 
   useEffect(() => {
-    setTimeout(() => {
+    const timeoutId = setTimeout(() => {
       if (!vantaEffect.current) {
         vantaEffect.current = BIRDS({
           el: myRef.current,
@@ -24,10 +24,12 @@ const Birds = ({ el }) => {
           backgroundAlpha: 0.0,
         });
       }
-      return () => {
-        if (vantaEffect.current) vantaEffect.current.destroy();
-      };
     }, 4000);
+
+    return () => {
+      clearTimeout(timeoutId);
+      if (vantaEffect.current) vantaEffect.current.destroy();
+    };
   }, []);
 
   return <div ref={myRef}>{el}</div>;
