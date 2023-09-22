@@ -406,11 +406,18 @@ h2.MuiTypography-h2 {
   justify-content: center;
   gap: 1rem 0;
   max-width: 900px;
+  margin-top: 25px;
 }
 
 .skill-icon {
   height: 60px;
   margin: 10px;
+}
+@media screen and (max-width: 500px) {
+  .skill-icon {
+    height: 40px;
+    margin: 5px;
+  }
 }
 
 /* career-history */

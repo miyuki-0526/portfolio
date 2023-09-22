@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import { Box, Button } from "@mui/material";
+import { Button } from "@mui/material";
 import { setTargetElement } from "../../redux/slices/scrollSlise";
 import { useDispatch } from "react-redux";
 
