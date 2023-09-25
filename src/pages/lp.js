@@ -66,7 +66,7 @@ const Lp = () => {
             variant="h2"
             gutterBottom
           >
-            I am a curious programmer and designer!
+            I am an open minded programmer and designer!
           </Typography>
         </Box>
       </Container>
@@ -91,13 +91,14 @@ const Lp = () => {
           </Typography>
           <Box className="about-me-contents">
             <Typography variant="body1" component="p" gutterBottom>
-              I love to learn new things and have used many different languages
-              and tools. I am good at solving complex problems in a simple way!
+              I love to learn new things and have used various languages and
+              tools. I am good at solving complex problems in the simplest way
+              possible!
             </Typography>
             <Typography variant="body1" component="p" gutterBottom>
               I love coffee and sweets more than anything else, and I enjoy
-              cooking. Recently, I'm into visiting vintage clothing stores in
-              Toronto.
+              cooking. Recently, I've been into visiting vintage clothing stores
+              in Toronto.
             </Typography>
             <img className="my-photo" src={myPhoto} />
           </Box>
@@ -162,7 +163,7 @@ const Lp = () => {
           }
         >
           <Typography variant="h2" gutterBottom>
-            Skils
+            Skills
           </Typography>
           <Box className="skills">
             <img src={wordpress} className="skill-icon" alt="wordpress-icon" />
@@ -213,8 +214,7 @@ const Lp = () => {
                 After working as a programmer at a Japanese start-up company for
                 2 years, I went independent and then turned freelance, gaining
                 experience at 3 companies. In May of this year, I moved to
-                Toronto and worked as a programmer for a local company for one
-                month.
+                Toronto and worked as a programmer for a local company.
               </Typography>
             </Box>
           </Box>
@@ -241,7 +241,7 @@ const Lp = () => {
             <Box>
               <a href="mailto:miyuki.takahashi.0526&#64;gmail.com">
                 <Button size="large" variant="contained" className="cta-button">
-                  Send Email
+                  By email
                 </Button>
               </a>
             </Box>

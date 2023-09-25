@@ -32,10 +32,10 @@ const MyPortfolio = () => {
           >
             <Box component="section" className="work-introduction">
               <Typography variant="h1" gutterBottom>
-                My Portfolio
+                Portfolio
               </Typography>
               <Typography variant="p" gutterBottom>
-                A portfolio of designs that make visitors feel refreshed
+                Designed to make visitors feel refreshed
               </Typography>
             </Box>
             <Box component="section" className="work-contents">
@@ -48,13 +48,13 @@ const MyPortfolio = () => {
                 </Typography>
                 <Typography variant="p" gutterBottom>
                   <ul className="work-list">
-                    <li>Developed with react for my own study.</li>
+                    <li>Developed with React for my own study.</li>
                     <li>
                       Redux is used for passing data between different
                       components (scroll position, element acquisition).
                     </li>
                     <li>
-                      Most components are created using mui in anticipation of
+                      Most components are created using MUI in anticipation of
                       implementing a theme switching function in the future.
                     </li>
                     <li>
@@ -64,13 +64,13 @@ const MyPortfolio = () => {
                     <li>
                       Components are separated in a way that is easy to manage
                       for a personal site, while maintaining a balance between
-                      man-hours and reusability of parts.
+                      labour hours and reusability of parts.
                     </li>
                     <li>
-                      Bright blue is the base color, with gray as the primary
-                      color and yellow as the secondary color. Although the
+                      Bright blue is the base colour, with gray as the primary
+                      colour and yellow as the secondary color. Although the
                       design is simple, this gradation of colors and the
-                      animation of the birds give the screen a sense of space.
+                      animation of the bird gives the screen a sense of space.
                     </li>
                   </ul>
                 </Typography>

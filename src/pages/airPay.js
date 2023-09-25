@@ -32,10 +32,10 @@ const AirRegi = () => {
           >
             <Box component="section" className="work-introduction">
               <Typography variant="h1" gutterBottom>
-                Air PAY faq
+                Payment terminal FAQ site
               </Typography>
               <Typography variant="p" gutterBottom>
-                Making the site responsive for PCs
+                Responsive website creation
               </Typography>
             </Box>
             <Box component="section" className="work-contents">
@@ -44,7 +44,7 @@ const AirRegi = () => {
               </Box>
               <Box component="div" className="work-description">
                 <Typography variant="h2" gutterBottom>
-                  Work in charge
+                  Responsibilities
                 </Typography>
                 <Typography variant="p" gutterBottom>
                   <ul className="work-list">
@@ -56,14 +56,14 @@ const AirRegi = () => {
                       modified in detail and making the necessary corrections.
                     </li>
                     <li>
-                      Improved user experience by adding semantic colors,
+                      Improved user experience by adding semantic colours,
                       thereby allowing the information in articles to be
-                      categorized and displayed by type
+                      categorized and displayed by type.
                     </li>
                     <li>
-                      The site was originally operated by the PR department, and
-                      the code was not organized, but the team worked together
-                      to modify it to make it easier to operate.
+                      The site was originally operated by the PR department. The
+                      code was not organized, but the team worked together to
+                      modify it to make it easier to operate.
                     </li>
                   </ul>
                 </Typography>

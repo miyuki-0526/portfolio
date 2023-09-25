@@ -60,7 +60,7 @@ const Header = () => {
               variant="h1"
               gutterBottom
             >
-              Miyuki.T
+              Miyuki T.
             </Typography>
           </Box>
           <Box component="div" className="menu">
