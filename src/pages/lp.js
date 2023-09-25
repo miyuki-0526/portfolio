@@ -30,6 +30,8 @@ import react from "../assets/img/icons/react-logo.svg";
 import ts from "../assets/img/icons/ts-logo.svg";
 import wordpress from "../assets/img/icons/wordpress-logo.svg";
 import xd from "../assets/img/icons/xd-logo.svg";
+import php from "../assets/img/icons/php-logo.svg";
+import sass from "../assets/img/icons/sass-logo.svg";
 import { useInView } from "react-intersection-observer";
 
 const inViewObj = () => ({
@@ -169,11 +171,13 @@ const Lp = () => {
             <img src={wordpress} className="skill-icon" alt="wordpress-icon" />
             <img src={bootstrap} className="skill-icon" />
             <img src={css} className="skill-icon" alt="css-icon" />
+            <img src={sass} className="skill-icon" alt="sass-icon" />
             <img src={html} className="skill-icon" alt="html-icon" />
             <img src={js} className="skill-icon" alt="js-icon" />
-            <img src={jquery} className="skill-icon" alt="jquery-icon" />
             <img src={ts} className="skill-icon" alt="ts-icon" />
+            <img src={jquery} className="skill-icon" alt="jquery-icon" />
             <img src={react} className="skill-icon" alt="react-icon" />
+            <img src={php} className="skill-icon" alt="php-icon" />
             <img src={django} className="skill-icon" alt="django-icon" />
             <img src={figma} className="skill-icon" alt="figma-icon" />
             <img src={photoshop} className="skill-icon" alt="photoshop-icon" />
