@@ -66,7 +66,7 @@ const TemporaryDrawer = () => {
     >
       <List>
         {navList.map((obj, index) => (
-          <ListItem key={obj} disablePadding>
+          <ListItem key={obj.targetId} disablePadding>
             <ListItemButton
               onClick={() => dispatch(setTargetElement(obj.targetId))}
             >
