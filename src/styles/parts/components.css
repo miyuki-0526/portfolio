@@ -33,6 +33,12 @@ header section {
   justify-content: space-around;
   align-items: center;
 }
+@media screen and (min-width: 500px) {
+  header section {
+    padding: 0 20px;
+  }
+}
+
 header {
   position: relative;
   z-index: 100;
@@ -42,6 +48,7 @@ header h1.MuiTypography-h1 {
   font-weight: bold;
   color: #fff;
   font-size: 8rem;
+  white-space: nowrap;
 }
 .text-anime-opacity,
 .text-anime span {
