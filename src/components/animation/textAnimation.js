@@ -2,18 +2,13 @@ const textAnimation = () => {
   const target = document.querySelectorAll(".text-anime");
 
   target.forEach((e) => {
-    var text = e.textContent;
-    var textbox = "";
+    let text = e.textContent;
+    let textbox = "";
     text.split("").forEach((t, i) => {
       if (t !== " ") {
-        if (i < 10) {
-          textbox +=
-            '<span style="animation-delay:.' + i + 's;">' + t + "</span>";
-        } else {
-          var n = i / 10;
-          textbox +=
-            '<span style="animation-delay:' + n + 's;">' + t + "</span>";
-        }
+        const m = i * 80;
+        textbox +=
+          '<span style="animation-delay:' + m + 'ms;">' + t + "</span>";
       } else {
         textbox += t;
       }
@@ -23,11 +18,11 @@ const textAnimation = () => {
 
   setTimeout(() => {
     target.forEach((e, i) => {
-      if (i == 1) {
+      if (i === 1) {
         setTimeout(() => {
           e.classList.remove("text-anime-opacity");
           e.classList.add("start-text-anime");
-        }, 1000);
+        }, 500);
       } else {
         e.classList.remove("text-anime-opacity");
         e.classList.add("start-text-anime");

@@ -140,7 +140,7 @@ button.menu-button {
 
 .birds-container {
   animation: fadeIn 5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
-  animation-delay: 6s;
+  animation-delay: 5.5s;
   opacity: 0;
 }
 
