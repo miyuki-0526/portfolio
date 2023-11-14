@@ -433,14 +433,26 @@ h2.MuiTypography-h2 {
   text-align: center;
   background-image: var(--base-color);
   padding: var(--conteriner-padding);
-}
-
-.career-history-contents {
-  text-align: center;
-  background-image: var(--base-color);
-  padding: var(--conteriner-padding);
   display: flex;
   justify-content: center;
+  text-shadow: 1px 1px 6px rgba(0, 89, 179, 0.14),
+    -1px 1px 6px rgba(0, 89, 179, 0.14), 1px -1px 6px rgba(0, 89, 179, 0.14),
+    -1px -1px 6px rgba(0, 89, 179, 0.14), 1px 0px 6px rgba(0, 89, 179, 0.14),
+    0px 1px 6px rgba(0, 89, 179, 0.14), -1px 0px 6px rgba(0, 89, 179, 0.14),
+    0px -1px 6px rgba(0, 89, 179, 0.14);
+}
+
+.career-history-contents p {
+  margin: 0 20px;
+}
+
+.career-history-contents p {
+  margin: 0 20px;
+  text-shadow: 1px 1px 7px rgba(0, 89, 179, 0.21),
+    -1px 1px 7px rgba(0, 89, 179, 0.21), 1px -1px 7px rgba(0, 89, 179, 0.21),
+    -1px -1px 7px rgba(0, 89, 179, 0.21), 1px 0px 7px rgba(0, 89, 179, 0.21),
+    0px 1px 7px rgba(0, 89, 179, 0.21), -1px 0px 7px rgba(0, 89, 179, 0.21),
+    0px -1px 7px rgba(0, 89, 179, 0.21);
 }
 
 /* contacts */
