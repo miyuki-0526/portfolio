@@ -8,8 +8,6 @@ import textAnimation from "../components/animation/textAnimation";
 
 // img
 import myPhoto from "../assets/img/my_photo.png";
-import airRegi from "../assets/img/works/AirRegi/AirRegi-top.png";
-import airPay from "../assets/img/works/AirPay/AirPay-thumbnail-1.png";
 import myPortfolio from "../assets/img/works/myPortfolio/myPortfolio-thumbnail.png";
 
 // FontAwesome
@@ -130,21 +128,6 @@ const Lp = () => {
                   <img src={myPortfolio} />
                 </Link>
                 <figcaption>My portfolio</figcaption>
-              </figure>
-              <figure className="work-figure">
-                <Link
-                  to="/airRegi"
-                  data-site-title="Registry application FAQ site"
-                >
-                  <img src={airRegi} />
-                </Link>
-                <figcaption>Registry application FAQ site</figcaption>
-              </figure>
-              <figure className="work-figure">
-                <Link to="/airPay" data-site-title="Payment terminal FAQ site">
-                  <img src={airPay} />
-                </Link>
-                <figcaption>Payment terminal FAQ site</figcaption>
               </figure>
             </Box>
           </Box>

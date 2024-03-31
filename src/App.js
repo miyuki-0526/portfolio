@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/common/footer";
 import Lp from "./pages/lp";
-import AirRegi from "./pages/airRegi";
-import AirPay from "./pages/airPay";
 import MyPortfolio from "./pages/myPortfolio";
 import "./styles/main.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
@@ -54,8 +52,6 @@ const App = () => {
           <ScrollTarget id="Top" />
           <Routes>
             <Route path="/" element={<Lp />} />
-            <Route path="/airRegi" element={<AirRegi />} />
-            <Route path="/airPay" element={<AirPay />} />
             <Route path="/myPortfolio" element={<MyPortfolio />} />
           </Routes>
           <Footer />
