@@ -91,14 +91,9 @@ const Lp = () => {
           </Typography>
           <Box className="about-me-contents">
             <Typography variant="body1" component="p" gutterBottom>
-              I love to learn new things and have used various languages and
-              tools. I am good at solving complex problems in the simplest way
-              possible!
-            </Typography>
-            <Typography variant="body1" component="p" gutterBottom>
-              I love coffee and sweets more than anything else, and I enjoy
-              cooking. Recently, I've been into visiting vintage clothing stores
-              in Toronto.
+              Webプログラマー兼デザイナーとして6年間働いています。
+              新しい技術を試すのが好きで、さまざまな言語やツールを使いこなしてきました。
+              JavascriptやJqueryを利用したフロント開発が最も得意で、今はReactを独学で勉強しています。
             </Typography>
             <img className="my-photo" src={myPhoto} />
           </Box>
@@ -198,10 +193,7 @@ const Lp = () => {
                 className="white-text"
                 gutterBottom
               >
-                After working as a programmer at a Japanese start-up company for
-                2 years, I went independent and then turned freelance, gaining
-                experience at 3 companies. In May of this year, I moved to
-                Toronto and worked as a programmer for a local company.
+                スタートアップ企業で2年間プログラマーとして働いた後、独立してフリーランスになり、3つの企業で経験を積みました。2023年5月にトロントに移り住み、地元企業でプログラマーとして働きました。
               </Typography>
             </Box>
           </Box>

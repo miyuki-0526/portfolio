@@ -46,13 +46,16 @@ a {
   text-decoration: none;
 }
 
-h1.MuiTypography-h1,
-h2.MuiTypography-h2,
-article h1.MuiTypography-h1 {
-  font-family: "Montserrat", sans-serif;
+* {
+  font-family: YuGothic, "Yu Gothic", "Hiragino Kaku Gothic ProN",
+    "ヒラギノ角ゴ ProN W3", "Roboto", sans-serif;
 }
-p.MuiTypography-body1 {
-  font-family: "Roboto", sans-serif;
+
+h1.MuiTypography-h1,
+h1.MuiTypography-h1 *,
+h2.MuiTypography-h2,
+h2.MuiTypography-h2 * {
+  font-family: "Montserrat", sans-serif;
 }
 
 .fitst-view h2.MuiTypography-h2 {
@@ -60,6 +63,7 @@ p.MuiTypography-body1 {
 }
 p.MuiTypography-body1 {
   font-size: 18px;
+  font-weight: bolder;
 }
 .white-text {
   color: #fff;

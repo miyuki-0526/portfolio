@@ -35,7 +35,7 @@ const MyPortfolio = () => {
                 Portfolio
               </Typography>
               <Typography variant="p" gutterBottom>
-                Designed to make visitors feel refreshed
+                爽やかな印象のポートフォリオサイト
               </Typography>
             </Box>
             <Box component="section" className="work-contents">
@@ -44,33 +44,29 @@ const MyPortfolio = () => {
               </Box>
               <Box component="div" className="work-description">
                 <Typography variant="h2" gutterBottom>
-                  Key Development Points
+                  開発のポイント
                 </Typography>
                 <Typography variant="p" gutterBottom>
                   <ul className="work-list">
-                    <li>Developed with React for my own study.</li>
                     <li>
-                      Redux is used for passing data between different
-                      components (scroll position, element acquisition).
+                      自分自身の勉強用に作成したReactポートフォリオサイトです。
                     </li>
                     <li>
-                      Most components are created using MUI in anticipation of
-                      implementing a theme switching function in the future.
+                      異なるコンポーネント間でデータをやり取りするためにReduxを使用しています（スクロール位置、要素の取得など）。
                     </li>
                     <li>
-                      Vanta.js is used to display CG bird animations, providing
-                      a dramatic experience for visitors.
+                      ほとんどのコンポーネントは、将来的にテーマ切り替え機能を実装することを見越してMUIを使用して作成されています。
                     </li>
                     <li>
-                      Components are separated in a way that is easy to manage
-                      for a personal site, while maintaining a balance between
-                      labour hours and reusability of parts.
+                      Vanta.jsでCGバードアニメーションを表示しており、ビジターにHPを印象付けています。
                     </li>
                     <li>
-                      Bright blue is the base colour, with gray as the primary
-                      colour and yellow as the secondary color. Although the
-                      design is simple, this gradation of colors and the
-                      animation of the bird gives the screen a sense of space.
+                      コンポーネントは、個人サイトで管理しやすく、作業時間とパーツの再利用性のバランスを考えて分割しています。。
+                    </li>
+                    <li>
+                      明るい青をbase colour、グレーがprimary
+                      colourで、黄色がsecondary
+                      colorにしています。デザインはシンプルですが、この色のグラデーションとバードのアニメーションにより、画面の中に空間を感じられるようにしました。
                     </li>
                   </ul>
                 </Typography>
